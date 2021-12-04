@@ -52,14 +52,39 @@ L.tileLayer(
 
 //creating icons
 
+let boardingIcon = L.icon({
+  iconUrl: "https://img.icons8.com/cotton/64/000000/dog-house--v1.png",
+  iconSize: [32, 37],
+});
+
 let groomerIcon = L.icon({
-  iconUrl: "image/paw-icon.png",
-  iconSize: [20, 20],
-  iconAnchor: [22, 94],
-  popupAnchor: [-3, -76],
+  iconUrl: "https://img.icons8.com/cotton/64/000000/barbershop.png",
+  iconSize: [32, 37],
+});
+
+let runIcon = L.icon({
+  iconUrl: "https://img.icons8.com/cotton/64/000000/dog-jump--v2.png",
+  iconSize: [32, 37],
+  // iconAnchor: [22, 94],
+  // popupAnchor: [-3, -76],
   // shadowUrl: "my-icon-shadow.png",
   // shadowSize: [68, 95],
   // shadowAnchor: [22, 94],
+});
+
+let poolIcon = L.icon({
+  iconUrl: "https://img.icons8.com/cotton/64/000000/dog-swim--v2.png",
+  iconSize: [32, 37],
+});
+
+let foodIcon = L.icon({
+  iconUrl: "https://img.icons8.com/cotton/64/000000/asian-street-food.png",
+  iconSize: [32, 37],
+});
+
+let hotelIcon = L.icon({
+  iconUrl: "https://img.icons8.com/cotton/64/000000/hotel-building--v2.png",
+  iconSize: [32, 37],
 });
 
 //add marker layers to map
@@ -78,7 +103,9 @@ async function getBoardingLayer() {
     let pos = boardingObjects[i];
     let boardingCoordinates = pos.geometry.coordinates;
     // console.log(boardingCoordinates, pos.properties.Location["Business Name"]);
-    L.marker([boardingCoordinates[1], boardingCoordinates[0]])
+    L.marker([boardingCoordinates[1], boardingCoordinates[0]], {
+      icon: boardingIcon,
+    })
       .bindPopup(
         `
         <p> ${pos.properties.Location["Business Name"]} </p>
@@ -116,7 +143,7 @@ async function getDogrunLayer() {
     let pos = dogrunObjects[i];
     let dogrunCoordinates = pos.geometry.coordinates;
     // console.log(dogrunCoordinates, pos.properties.Location["Business Name"]);
-    L.marker([dogrunCoordinates[1], dogrunCoordinates[0]])
+    L.marker([dogrunCoordinates[1], dogrunCoordinates[0]], { icon: runIcon })
       .bindPopup(
         `
         <p> ${pos.properties.Location["Business Name"]} </p>
@@ -134,7 +161,7 @@ async function getPetpoolLayer() {
     let pos = petpoolObjects[i];
     let petpoolCoordinates = pos.geometry.coordinates;
     // console.log(petpoolCoordinates, pos.properties.Location["Business Name"]);
-    L.marker([petpoolCoordinates[1], petpoolCoordinates[0]])
+    L.marker([petpoolCoordinates[1], petpoolCoordinates[0]], { icon: poolIcon })
       .bindPopup(
         `
         <p> ${pos.properties.Location["Business Name"]} </p>
@@ -152,7 +179,7 @@ async function getFoodLayer() {
     let pos = foodObjects[i];
     let foodCoordinates = pos.geometry.coordinates;
     // console.log(foodCoordinates, pos.properties.Location["Business Name"]);
-    L.marker([foodCoordinates[1], foodCoordinates[0]])
+    L.marker([foodCoordinates[1], foodCoordinates[0]], { icon: foodIcon })
       .bindPopup(
         `
         <p> ${pos.properties.Location["Business Name"]} </p>
@@ -170,7 +197,7 @@ async function getHotelLayer() {
     let pos = hotelObjects[i];
     let hotelCoordinates = pos.geometry.coordinates;
     // console.log(hotelCoordinates, pos.properties.Location["Business Name"]);
-    L.marker([hotelCoordinates[1], hotelCoordinates[0]])
+    L.marker([hotelCoordinates[1], hotelCoordinates[0]], { icon: hotelIcon })
       .bindPopup(
         `
         <p> ${pos.properties.Location["Business Name"]} </p>
