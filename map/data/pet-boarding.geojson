@@ -1,0 +1,320 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [103.7255819, 1.3812997],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=16458655162069556106",
+        "Location": {
+          "Address": "The Animal Lodge, 59 Sungei Tengah Rd, #01-53 Blk W, Singapore 699014",
+          "Business Name": "Tara Pet Care",
+          "Geo Coordinates": {
+            "Latitude": "1.3812997",
+            "Longitude": "103.7255819"
+          }
+        },
+        "Published": "2021-11-30T15:54:24Z",
+        "Title": "Tara Pet Care",
+        "Updated": "2021-11-30T15:54:24Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8275743, 1.3584682],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=16459781834631384967",
+        "Location": {
+          "Address": "17 Venus Rd, Singapore 574304",
+          "Business Name": "Dear Mutt,",
+          "Geo Coordinates": {
+            "Latitude": "1.3584682",
+            "Longitude": "103.8275743"
+          }
+        },
+        "Published": "2021-11-30T15:54:18Z",
+        "Title": "Dear Mutt,",
+        "Updated": "2021-11-30T15:54:18Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8786355, 1.3757836],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14104696750125428942",
+        "Location": {
+          "Address": "Singapore 000002",
+          "Business Name": "Fyfy’s Love Pet Services",
+          "Geo Coordinates": {
+            "Latitude": "1.3757836",
+            "Longitude": "103.8786355"
+          }
+        },
+        "Published": "2021-11-30T15:54:06Z",
+        "Title": "Fyfy’s Love Pet Services",
+        "Updated": "2021-11-30T15:54:06Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.875897, 1.3569016],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=1022973851886151431",
+        "Location": {
+          "Address": "40 Yio Chu Kang Rd, Singapore 545555",
+          "Business Name": "Wagging Tails N Playful Paws",
+          "Geo Coordinates": {
+            "Latitude": "1.3569016",
+            "Longitude": "103.8758970"
+          }
+        },
+        "Published": "2021-11-30T15:53:53Z",
+        "Title": "Wagging Tails N Playful Paws",
+        "Updated": "2021-11-30T15:53:53Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.768516, 1.336042],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=16474671070474983875",
+        "Location": {
+          "Address": "31 Eng Kong Terrace, Singapore 599004",
+          "Business Name": "Up For Paws",
+          "Geo Coordinates": {
+            "Latitude": "1.3360420",
+            "Longitude": "103.7685160"
+          }
+        },
+        "Published": "2021-11-30T15:53:47Z",
+        "Title": "Up For Paws",
+        "Updated": "2021-11-30T15:53:47Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8183204, 1.4029923],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=891589765856783331",
+        "Location": {
+          "Address": "56, #01-05 Sembawang Rd, Singapore 779086",
+          "Business Name": "Battlestar Boarding | Pet Grooming and Hotel",
+          "Geo Coordinates": {
+            "Latitude": "1.4029923",
+            "Longitude": "103.8183204"
+          }
+        },
+        "Published": "2021-11-30T15:53:35Z",
+        "Title": "Battlestar Boarding | Pet Grooming and Hotel",
+        "Updated": "2021-11-30T15:53:35Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8296321, 1.3815213],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=1837947706413046719",
+        "Location": {
+          "Address": "21 Kalidasa Ave, Singapore 789400",
+          "Business Name": "Straits Dogs Doggy Daycare Boarding Resort Hotel",
+          "Geo Coordinates": {
+            "Latitude": "1.3815213",
+            "Longitude": "103.8296321"
+          }
+        },
+        "Published": "2021-11-30T15:53:14Z",
+        "Title": "Straits Dogs Doggy Daycare Boarding Resort Hotel",
+        "Updated": "2021-11-30T15:53:14Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7166848, 1.4235861],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=784877098307862282",
+        "Location": {
+          "Address": "80 Lim Chu Kang Lane 1, Singapore 718911",
+          "Business Name": "Pet Boarding Centre",
+          "Geo Coordinates": {
+            "Latitude": "1.4235861",
+            "Longitude": "103.7166848"
+          }
+        },
+        "Published": "2021-11-30T15:53:07Z",
+        "Title": "Pet Boarding Centre",
+        "Updated": "2021-11-30T15:53:07Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.875577, 1.3833804],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13915213277610152337",
+        "Location": {
+          "Address": "26 Jln Kelulut, Singapore 809043",
+          "Business Name": "Petopia",
+          "Geo Coordinates": {
+            "Latitude": "1.3833804",
+            "Longitude": "103.8755770"
+          }
+        },
+        "Published": "2021-11-30T15:52:48Z",
+        "Title": "Petopia",
+        "Updated": "2021-11-30T15:52:48Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7679317, 1.3764526],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=12168416862885296036",
+        "Location": {
+          "Address": "142 Petir Rd, Block 142, Singapore 670142",
+          "Business Name": "Bunny on Board",
+          "Geo Coordinates": {
+            "Latitude": "1.3764526",
+            "Longitude": "103.7679317"
+          }
+        },
+        "Published": "2021-11-30T15:48:08Z",
+        "Title": "Bunny on Board",
+        "Updated": "2021-11-30T15:48:08Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8116122, 1.3029008],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2223984721369938183",
+        "Location": {
+          "Address": "27B Loewen Rd, Singapore 248850",
+          "Business Name": "The Wagington",
+          "Geo Coordinates": {
+            "Latitude": "1.3029008",
+            "Longitude": "103.8116122"
+          }
+        },
+        "Published": "2021-11-30T15:48:03Z",
+        "Title": "The Wagington",
+        "Updated": "2021-11-30T15:48:03Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7260209, 1.3815353],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10509400569535981494",
+        "Location": {
+          "Address": "59 Sungei Tengah Blk W #01-54, Singapore 699014",
+          "Business Name": "Petpause",
+          "Geo Coordinates": {
+            "Latitude": "1.3815353",
+            "Longitude": "103.7260209"
+          }
+        },
+        "Published": "2021-11-30T15:47:58Z",
+        "Title": "Petpause",
+        "Updated": "2021-11-30T15:47:58Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7255817, 1.3813031],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=1761149537481395655",
+        "Location": {
+          "Address": "59 Sungei Tengah Road Blk B, #01-03/04 The Animal Lodge, Singapore 699014",
+          "Business Name": "Mutts & Mittens",
+          "Geo Coordinates": {
+            "Latitude": "1.3813031",
+            "Longitude": "103.7255817"
+          }
+        },
+        "Published": "2021-11-30T15:47:49Z",
+        "Title": "Mutts & Mittens",
+        "Updated": "2021-11-30T15:47:49Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7719498, 1.3619722],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14338811481941676767",
+        "Location": {
+          "Address": "Singapore 677721",
+          "Business Name": "Pet Boarding",
+          "Geo Coordinates": {
+            "Latitude": "1.3619722",
+            "Longitude": "103.7719498"
+          }
+        },
+        "Published": "2021-11-30T15:47:35Z",
+        "Title": "Pet Boarding",
+        "Updated": "2021-11-30T15:47:35Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7794608, 1.3366908],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9334788384289173900",
+        "Location": {
+          "Address": "9 King Albert Park #02-20 KAP, Singapore 598332",
+          "Business Name": "Nekoya Cat Hotel & Boarding @ King Albert Park Singapore",
+          "Geo Coordinates": {
+            "Latitude": "1.3366908",
+            "Longitude": "103.7794608"
+          }
+        },
+        "Published": "2021-11-30T15:47:24Z",
+        "Title": "Nekoya Cat Hotel & Boarding @ King Albert Park Singapore",
+        "Updated": "2021-11-30T15:47:24Z"
+      },
+      "type": "Feature"
+    }
+  ]
+}

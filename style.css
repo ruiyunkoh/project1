@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar-brand > img {
+  height: 60px;
+  width: 80px;
+}
+
+.nav-link {
+  color: black;
+  font-size: 1.15rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link:hover {
+  color: rgb(172, 185, 194);
+}
+
+/* Section highlight */
+
+.main-bg {
+  width: 100%;
+  height: calc(100vh - 86px);
+
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+}
+
+.main-bg > img {
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  width: 100%;
+  height: calc(100vh - 86px);
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+  color: black;
+}
+
+#text {
+  max-width: 320px;
+}
+
+#text > h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(34, 33, 32);
+  font-size: 2rem;
+}
+
+#text > p {
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Main - Enter map */
+.click-section {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+}
+
+.click-btn {
+  display: flex;
+  justify-content: center;
+}
+
+/* Section - useful contacts */
+
+.useful-contacts {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+}
+
+.contact-items {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Contact us */
+.connect {
+  font-family: "Montserrat", sans-serif;
+}
+
+.connect > h5 {
+  padding-left: 0.75rem;
+  font-size: 0.9rem;
+}
+
+/* ipad */
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  .overlay {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-left: 2rem;
+  }
+
+  #text {
+    max-width: 500px;
+    text-align: start;
+  }
+
+  #text > h1 {
+    font-size: 2.5rem;
+  }
+
+  .click-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+  }
+
+  .click-btn {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2rem;
+  }
+
+  /* Useful contacts */
+  .useful-contacts {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+  }
+
+  /* Contact items */
+  .contact-items {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 2.9rem;
+  }
+}
+
+/* Laptop */
+@media screen and (min-width: 1200px) {
+  .navbar-brand {
+    padding-left: 4rem;
+  }
+
+  .overlay {
+    padding-left: 5rem;
+  }
+
+  .click-section {
+    padding-left: 5rem;
+  }
+
+  .click-btn {
+    padding-left: 5rem;
+  }
+
+  .useful-contacts {
+    padding-left: 5rem;
+  }
+
+  .contact-items {
+    padding-left: 5.8rem;
+  }
+}

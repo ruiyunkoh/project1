@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [103.8995666, 1.3131834],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14041883655799521393",
+        "Location": {
+          "Address": "154 Joo Chiat Rd, Singapore 427432",
+          "Business Name": "Hydro Canine",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3131834",
+            "Longitude": "103.8995666"
+          }
+        },
+        "Published": "2021-11-30T16:35:02Z",
+        "Title": "Hydro Canine",
+        "Updated": "2021-11-30T16:35:02Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8301704, 1.3732701],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2475361815613974090",
+        "Location": {
+          "Address": "12 Jln Gelenggang, Singapore 578192",
+          "Business Name": "Canine Wellness & Rehab Centre",
+          "Geo Coordinates": {
+            "Latitude": "1.3732701",
+            "Longitude": "103.8301704"
+          }
+        },
+        "Published": "2021-11-30T16:34:50Z",
+        "Title": "Canine Wellness & Rehab Centre",
+        "Updated": "2021-11-30T16:34:50Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8799121, 1.3551934],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11514088277172725460",
+        "Location": {
+          "Address": "800 Upper Serangoon Rd, Singapore 534670",
+          "Business Name": "Pet Stop",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3551934",
+            "Longitude": "103.8799121"
+          }
+        },
+        "Published": "2021-11-30T16:34:33Z",
+        "Title": "Pet Stop",
+        "Updated": "2021-11-30T16:34:33Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7476154, 1.4127091],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13822758166893974144",
+        "Location": {
+          "Address": "18 Sungei Kadut Street 2, Singapore 729236",
+          "Business Name": "Sun Petgamart",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.4127091",
+            "Longitude": "103.7476154"
+          }
+        },
+        "Published": "2021-11-30T16:34:06Z",
+        "Title": "Sun Petgamart",
+        "Updated": "2021-11-30T16:34:06Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.9262994, 1.3158028],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7512620114613549350",
+        "Location": {
+          "Address": "1P Figaro St, Singapore 458322",
+          "Business Name": "TheNakedPet",
+          "Geo Coordinates": {
+            "Latitude": "1.3158028",
+            "Longitude": "103.9262994"
+          }
+        },
+        "Published": "2021-11-30T16:33:34Z",
+        "Title": "TheNakedPet",
+        "Updated": "2021-11-30T16:33:34Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7947158, 1.3347624],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=6014379402794627245",
+        "Location": {
+          "Address": "110 Turf Club Rd, Singapore 288000",
+          "Business Name": "Sunny Heights",
+          "Geo Coordinates": {
+            "Latitude": "1.3347624",
+            "Longitude": "103.7947158"
+          }
+        },
+        "Published": "2021-11-30T16:32:35Z",
+        "Title": "Sunny Heights",
+        "Updated": "2021-11-30T16:32:35Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8856916, 1.3729783],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11613346529461719812",
+        "Location": {
+          "Address": "681 Hougang Ave 8, #01-861, Singapore 530681",
+          "Business Name": "Pink Poodle. Asian Fusion Dog Groomers",
+          "Geo Coordinates": {
+            "Latitude": "1.3729783",
+            "Longitude": "103.8856916"
+          }
+        },
+        "Published": "2021-11-30T16:20:46Z",
+        "Title": "Pink Poodle. Asian Fusion Dog Groomers",
+        "Updated": "2021-11-30T16:20:46Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.739864, 1.3441786],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14255563178952144726",
+        "Location": {
+          "Address": "259 Jurong East St 24, #01-441 Block 259, Singapore 600259",
+          "Business Name": "First Class Pets",
+          "Geo Coordinates": {
+            "Latitude": "1.3441786",
+            "Longitude": "103.7398640"
+          }
+        },
+        "Published": "2021-11-30T16:19:22Z",
+        "Title": "First Class Pets",
+        "Updated": "2021-11-30T16:19:22Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7463817, 1.3467611],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=3977220028085994823",
+        "Location": {
+          "Address": "109 Bukit Batok West Ave 6, 01-02, Singapore 650109",
+          "Business Name": "Bukit Barkdog Grooming",
+          "Geo Coordinates": {
+            "Latitude": "1.3467611",
+            "Longitude": "103.7463817"
+          }
+        },
+        "Published": "2021-11-30T16:18:59Z",
+        "Title": "Bukit Barkdog Grooming",
+        "Updated": "2021-11-30T16:18:59Z"
+      },
+      "type": "Feature"
+    }
+  ]
+}

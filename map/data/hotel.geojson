@@ -1,0 +1,487 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [103.8525792, 1.3210021],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=12217188068660856962",
+        "Location": {
+          "Address": "207 Balestier Rd, Singapore 329683",
+          "Business Name": "Citadines Balestier Singapore",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3210021",
+            "Longitude": "103.8525792"
+          }
+        },
+        "Published": "2021-11-30T17:10:06Z",
+        "Title": "Citadines Balestier Singapore",
+        "Updated": "2021-11-30T17:10:06Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8359952, 1.287739],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10636952723276765022",
+        "Location": {
+          "Address": "405 Havelock Rd, Singapore 169633",
+          "Business Name": "Furama RiverFront",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2877390",
+            "Longitude": "103.8359952"
+          }
+        },
+        "Published": "2021-11-30T17:09:38Z",
+        "Title": "Furama RiverFront",
+        "Updated": "2021-11-30T17:09:38Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8445845, 1.3200635],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10865323509144362020",
+        "Location": {
+          "Address": "8 Sinaran Dr, Singapore 307470",
+          "Business Name": "Oasia Hotel Novena",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3200635",
+            "Longitude": "103.8445845"
+          }
+        },
+        "Published": "2021-11-30T17:08:54Z",
+        "Title": "Oasia Hotel Novena",
+        "Updated": "2021-11-30T17:08:54Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8361804, 1.3069712],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=15160383218151791063",
+        "Location": {
+          "Address": "18 Mount Elizabeth, Singapore 228514",
+          "Business Name": "Oakwood Studios Singapore",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3069712",
+            "Longitude": "103.8361804"
+          }
+        },
+        "Published": "2021-11-30T17:08:40Z",
+        "Title": "Oakwood Studios Singapore",
+        "Updated": "2021-11-30T17:08:40Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8334609, 1.2851578],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=4359682515686460102",
+        "Location": {
+          "Address": "77 Tiong Bahru Rd, Singapore 168727",
+          "Business Name": "Nostalgia Hotel",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2851578",
+            "Longitude": "103.8334609"
+          }
+        },
+        "Published": "2021-11-30T17:08:22Z",
+        "Title": "Nostalgia Hotel",
+        "Updated": "2021-11-30T17:08:22Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8398371, 1.24562],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=12743306377450122904",
+        "Location": {
+          "Address": "11 Cove Drive, #01-01, Sentosa Cove, Singapore 098497",
+          "Business Name": "ONE°15 Marina Sentosa Cove, Singapore",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2456200",
+            "Longitude": "103.8398371"
+          }
+        },
+        "Published": "2021-11-30T17:07:56Z",
+        "Title": "ONE°15 Marina Sentosa Cove, Singapore",
+        "Updated": "2021-11-30T17:07:56Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8277056, 1.2457019],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10191803642612391753",
+        "Location": {
+          "Address": "2 Bukit Manis Rd, Sentosa, Singapore 099891",
+          "Business Name": "Sofitel Singapore Sentosa Resort & Spa",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2457019",
+            "Longitude": "103.8277056"
+          }
+        },
+        "Published": "2021-11-30T17:07:42Z",
+        "Title": "Sofitel Singapore Sentosa Resort & Spa",
+        "Updated": "2021-11-30T17:07:42Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8286083, 1.3050626],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13390369147327863383",
+        "Location": {
+          "Address": "190 Orchard Blvd, Singapore 248646",
+          "Business Name": "Four Seasons Hotel Singapore",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3050626",
+            "Longitude": "103.8286083"
+          }
+        },
+        "Published": "2021-11-30T17:06:14Z",
+        "Title": "Four Seasons Hotel Singapore",
+        "Updated": "2021-11-30T17:06:14Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.718739, 1.4198193],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=3603506142350187736",
+        "Location": {
+          "Address": "10 Neo Tiew Lane 2, Singapore 718813",
+          "Business Name": "OYO 105 Gallop Kranji Farm Resort",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.4198193",
+            "Longitude": "103.7187390"
+          }
+        },
+        "Published": "2021-11-30T17:06:01Z",
+        "Title": "OYO 105 Gallop Kranji Farm Resort",
+        "Updated": "2021-11-30T17:06:01Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8248939, 1.3047203],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=5591723567777694672",
+        "Location": {
+          "Address": "1 Cuscaden Rd, Singapore 249715",
+          "Business Name": "Regent Singapore",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3047203",
+            "Longitude": "103.8248939"
+          }
+        },
+        "Published": "2021-11-30T17:05:43Z",
+        "Title": "Regent Singapore",
+        "Updated": "2021-11-30T17:05:43Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.822159, 1.2520799],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13801896039927984254",
+        "Location": {
+          "Address": "Sentosa Island, 1 Larkhill Rd, Singapore 099394",
+          "Business Name": "Amara Sanctuary Resort Sentosa",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2520799",
+            "Longitude": "103.8221590"
+          }
+        },
+        "Published": "2021-11-30T17:05:32Z",
+        "Title": "Amara Sanctuary Resort Sentosa",
+        "Updated": "2021-11-30T17:05:32Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8241667, 1.2497222],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=6123263206880478565",
+        "Location": {
+          "Address": "1 The Knolls, Sentosa Island, Singapore 098297",
+          "Business Name": "Capella Singapore",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2497222",
+            "Longitude": "103.8241667"
+          }
+        },
+        "Published": "2021-11-30T17:05:16Z",
+        "Title": "Capella Singapore",
+        "Updated": "2021-11-30T17:05:16Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.923928, 1.321616],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7670709358753370612",
+        "Location": {
+          "Address": "29 Swan Lake Ave, Singapore 455718",
+          "Business Name": "BLACK&INK",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3216160",
+            "Longitude": "103.9239280"
+          }
+        },
+        "Published": "2021-11-30T17:01:32Z",
+        "Title": "BLACK&INK",
+        "Updated": "2021-11-30T17:01:32Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8983496, 1.3750035],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10459416111698601373",
+        "Location": {
+          "Address": "97 Hougang Ave 8, Punggol Park, Singapore 538792",
+          "Business Name": "Five & 2",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3750035",
+            "Longitude": "103.8983496"
+          }
+        },
+        "Published": "2021-11-30T16:59:58Z",
+        "Title": "Five & 2",
+        "Updated": "2021-11-30T16:59:58Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.91743, 1.393014],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13154463384771900378",
+        "Location": {
+          "Address": "10 Tebing Ln, Singapore 828836",
+          "Business Name": "Whisk & Paddle",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3930140",
+            "Longitude": "103.9174300"
+          }
+        },
+        "Published": "2021-11-30T16:56:54Z",
+        "Title": "Whisk & Paddle",
+        "Updated": "2021-11-30T16:56:54Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7936436, 1.3377382],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9367301408035981013",
+        "Location": {
+          "Address": "200 Turf Club Rd, 01-14 Grandstand South, Singapore 287994",
+          "Business Name": "HotChic2",
+          "Geo Coordinates": {
+            "Latitude": "1.3377382",
+            "Longitude": "103.7936436"
+          }
+        },
+        "Published": "2021-11-30T16:56:42Z",
+        "Title": "HotChic2",
+        "Updated": "2021-11-30T16:56:42Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8380356, 1.2897836],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14524236532219298845",
+        "Location": {
+          "Address": "7 Rodyk Street, Robertson Quay, #01-28, Singapore 238215",
+          "Business Name": "Kith Café Robertson Quay",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2897836",
+            "Longitude": "103.8380356"
+          }
+        },
+        "Published": "2021-11-30T16:56:08Z",
+        "Title": "Kith Café Robertson Quay",
+        "Updated": "2021-11-30T16:56:08Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8678018, 1.40832],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2605095864939627591",
+        "Location": {
+          "Address": "16 The Oval, Seletar Aerospace Park, Singapore 797873",
+          "Business Name": "Chow Cute Cafe",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.4083200",
+            "Longitude": "103.8678018"
+          }
+        },
+        "Published": "2021-11-30T16:55:48Z",
+        "Title": "Chow Cute Cafe",
+        "Updated": "2021-11-30T16:55:48Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8832035, 1.3613927],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14286444881738135928",
+        "Location": {
+          "Address": "37 Lowland Rd, Singapore 547440",
+          "Business Name": "The Garden Slug Petite (Pets Allowed)",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3613927",
+            "Longitude": "103.8832035"
+          }
+        },
+        "Published": "2021-11-30T16:55:33Z",
+        "Title": "The Garden Slug Petite (Pets Allowed)",
+        "Updated": "2021-11-30T16:55:33Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.815589, 1.318974],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=15399595481897051450",
+        "Location": {
+          "Address": "Cluny Park Rd, Level 1 The Garage, 50, Singapore 257488",
+          "Business Name": "Bee's Knees at The Garage",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3189740",
+            "Longitude": "103.8155890"
+          }
+        },
+        "Published": "2021-11-30T16:55:26Z",
+        "Title": "Bee's Knees at The Garage",
+        "Updated": "2021-11-30T16:55:26Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7933068, 1.3377019],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=17054491309389730639",
+        "Location": {
+          "Address": "200 Turf Club Rd, #01-29, Singapore 287994",
+          "Business Name": "Wooftopia Pet Cafe",
+          "Geo Coordinates": {
+            "Latitude": "1.3377019",
+            "Longitude": "103.7933068"
+          }
+        },
+        "Published": "2021-11-30T16:54:19Z",
+        "Title": "Wooftopia Pet Cafe",
+        "Updated": "2021-11-30T16:54:19Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7668887, 1.3030208],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2695127697252773198",
+        "Location": {
+          "Address": "West Coast Rd, Singapore",
+          "Business Name": "Clementi Woods Park Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3030208",
+            "Longitude": "103.7668887"
+          }
+        },
+        "Published": "2021-11-30T16:47:46Z",
+        "Title": "Clementi Woods Park Dog Run",
+        "Updated": "2021-11-30T16:47:46Z"
+      },
+      "type": "Feature"
+    }
+  ]
+}

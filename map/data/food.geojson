@@ -1,0 +1,550 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [103.923928, 1.321616],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7670709358753370612",
+        "Location": {
+          "Address": "29 Swan Lake Ave, Singapore 455718",
+          "Business Name": "BLACK&INK",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3216160",
+            "Longitude": "103.9239280"
+          }
+        },
+        "Published": "2021-11-30T17:01:32Z",
+        "Title": "BLACK&INK",
+        "Updated": "2021-11-30T17:01:32Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8008116, 1.2786628],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=823358250313834679",
+        "Location": {
+          "Address": "#01-01, 33 Hyderabad Road, HortPark, Singapore 119578",
+          "Business Name": "Canopy HortPark",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2786628",
+            "Longitude": "103.8008116"
+          }
+        },
+        "Published": "2021-11-30T17:00:50Z",
+        "Title": "Canopy HortPark",
+        "Updated": "2021-11-30T17:00:50Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.9108875, 1.3115352],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=1042713052330506306",
+        "Location": {
+          "Address": "224 Telok Kurau Rd, #01-01, Singapore 423836",
+          "Business Name": "Nicole's Flower: Cafe & Flower Delivery in Singapore",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3115352",
+            "Longitude": "103.9108875"
+          }
+        },
+        "Published": "2021-11-30T17:00:26Z",
+        "Title": "Nicole's Flower: Cafe & Flower Delivery in Singapore",
+        "Updated": "2021-11-30T17:00:26Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8983496, 1.3750035],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10459416111698601373",
+        "Location": {
+          "Address": "97 Hougang Ave 8, Punggol Park, Singapore 538792",
+          "Business Name": "Five & 2",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3750035",
+            "Longitude": "103.8983496"
+          }
+        },
+        "Published": "2021-11-30T16:59:58Z",
+        "Title": "Five & 2",
+        "Updated": "2021-11-30T16:59:58Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8666676, 1.2949151],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2611089843685904505",
+        "Location": {
+          "Address": "11 Rhu Cross, #01-02, Singapore 437440",
+          "Business Name": "Kontiki",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2949151",
+            "Longitude": "103.8666676"
+          }
+        },
+        "Published": "2021-11-30T16:59:27Z",
+        "Title": "Kontiki",
+        "Updated": "2021-11-30T16:59:27Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.9105697, 1.3118345],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=4331648157986905989",
+        "Location": {
+          "Address": "55 Lor L Telok Kurau, Singapore 425500",
+          "Business Name": "The Garden Slug",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3118345",
+            "Longitude": "103.9105697"
+          }
+        },
+        "Published": "2021-11-30T16:58:37Z",
+        "Title": "The Garden Slug",
+        "Updated": "2021-11-30T16:58:37Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7789302, 1.3204349],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10017959380484823040",
+        "Location": {
+          "Address": "2 Pandan Valley, #01-210 ACACIA COURT, Singapore 597626",
+          "Business Name": "TWO X FOUR CAFE",
+          "Geo Coordinates": {
+            "Latitude": "1.3204349",
+            "Longitude": "103.7789302"
+          }
+        },
+        "Published": "2021-11-30T16:58:17Z",
+        "Title": "TWO X FOUR CAFE",
+        "Updated": "2021-11-30T16:58:17Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.91743, 1.393014],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13154463384771900378",
+        "Location": {
+          "Address": "10 Tebing Ln, Singapore 828836",
+          "Business Name": "Whisk & Paddle",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3930140",
+            "Longitude": "103.9174300"
+          }
+        },
+        "Published": "2021-11-30T16:56:54Z",
+        "Title": "Whisk & Paddle",
+        "Updated": "2021-11-30T16:56:54Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.813289, 1.278877],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=1147962235036794008",
+        "Location": {
+          "Address": "10 Telok Blangah Green, Singapore 109178",
+          "Business Name": "Wildseed Café at The Alkaff Mansion",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2788770",
+            "Longitude": "103.8132890"
+          }
+        },
+        "Published": "2021-11-30T16:56:46Z",
+        "Title": "Wildseed Café at The Alkaff Mansion",
+        "Updated": "2021-11-30T16:56:46Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7936436, 1.3377382],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9367301408035981013",
+        "Location": {
+          "Address": "200 Turf Club Rd, 01-14 Grandstand South, Singapore 287994",
+          "Business Name": "HotChic2",
+          "Geo Coordinates": {
+            "Latitude": "1.3377382",
+            "Longitude": "103.7936436"
+          }
+        },
+        "Published": "2021-11-30T16:56:42Z",
+        "Title": "HotChic2",
+        "Updated": "2021-11-30T16:56:42Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8380356, 1.2897836],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14524236532219298845",
+        "Location": {
+          "Address": "7 Rodyk Street, Robertson Quay, #01-28, Singapore 238215",
+          "Business Name": "Kith Café Robertson Quay",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2897836",
+            "Longitude": "103.8380356"
+          }
+        },
+        "Published": "2021-11-30T16:56:08Z",
+        "Title": "Kith Café Robertson Quay",
+        "Updated": "2021-11-30T16:56:08Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8684043, 1.4079238],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9638699661433436685",
+        "Location": {
+          "Address": "Level 1, 3 Park Lane, Seletar Aerospace Dr, Park, Singapore 798387",
+          "Business Name": "Wildseed Cafe & Bar at The Summerhouse",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.4079238",
+            "Longitude": "103.8684043"
+          }
+        },
+        "Published": "2021-11-30T16:56:01Z",
+        "Title": "Wildseed Cafe & Bar at The Summerhouse",
+        "Updated": "2021-11-30T16:56:01Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.852831, 1.326623],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9586383246931292339",
+        "Location": {
+          "Address": "28 Lor Ampas, Singapore 328781",
+          "Business Name": "Wheeler's Yard",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3266230",
+            "Longitude": "103.8528310"
+          }
+        },
+        "Published": "2021-11-30T16:55:55Z",
+        "Title": "Wheeler's Yard",
+        "Updated": "2021-11-30T16:55:55Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8678018, 1.40832],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2605095864939627591",
+        "Location": {
+          "Address": "16 The Oval, Seletar Aerospace Park, Singapore 797873",
+          "Business Name": "Chow Cute Cafe",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.4083200",
+            "Longitude": "103.8678018"
+          }
+        },
+        "Published": "2021-11-30T16:55:48Z",
+        "Title": "Chow Cute Cafe",
+        "Updated": "2021-11-30T16:55:48Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8547065, 1.2996691],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=5461471395315324676",
+        "Location": {
+          "Address": "#07-07, Bugis+, 201 Victoria St, Singapore 188067",
+          "Business Name": "We are the Furballs",
+          "Geo Coordinates": {
+            "Latitude": "1.2996691",
+            "Longitude": "103.8547065"
+          }
+        },
+        "Published": "2021-11-30T16:55:42Z",
+        "Title": "We are the Furballs",
+        "Updated": "2021-11-30T16:55:42Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7624039, 1.3084697],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=3691541995620627809",
+        "Location": {
+          "Address": "39 Jln Mas Puteh, Singapore 128637",
+          "Business Name": "W39 Bistro & Bakery",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3084697",
+            "Longitude": "103.7624039"
+          }
+        },
+        "Published": "2021-11-30T16:55:39Z",
+        "Title": "W39 Bistro & Bakery",
+        "Updated": "2021-11-30T16:55:39Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8832035, 1.3613927],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14286444881738135928",
+        "Location": {
+          "Address": "37 Lowland Rd, Singapore 547440",
+          "Business Name": "The Garden Slug Petite (Pets Allowed)",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3613927",
+            "Longitude": "103.8832035"
+          }
+        },
+        "Published": "2021-11-30T16:55:33Z",
+        "Title": "The Garden Slug Petite (Pets Allowed)",
+        "Updated": "2021-11-30T16:55:33Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.815589, 1.318974],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=15399595481897051450",
+        "Location": {
+          "Address": "Cluny Park Rd, Level 1 The Garage, 50, Singapore 257488",
+          "Business Name": "Bee's Knees at The Garage",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3189740",
+            "Longitude": "103.8155890"
+          }
+        },
+        "Published": "2021-11-30T16:55:26Z",
+        "Title": "Bee's Knees at The Garage",
+        "Updated": "2021-11-30T16:55:26Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.9105471, 1.3117723],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9950272945608466030",
+        "Location": {
+          "Address": "55 Lor L Telok Kurau, #01-59/61, Singapore 425500",
+          "Business Name": "The Garden Slug Family Restaurant (Pet-Friendly Outdoors)",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3117723",
+            "Longitude": "103.9105471"
+          }
+        },
+        "Published": "2021-11-30T16:55:09Z",
+        "Title": "The Garden Slug Family Restaurant (Pet-Friendly Outdoors)",
+        "Updated": "2021-11-30T16:55:09Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8194072, 1.4046724],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10366459314814741085",
+        "Location": {
+          "Address": "60 Springside Walk, 01-05, Singapore 786020",
+          "Business Name": "The Urban Hideout",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.4046724",
+            "Longitude": "103.8194072"
+          }
+        },
+        "Published": "2021-11-30T16:54:59Z",
+        "Title": "The Urban Hideout",
+        "Updated": "2021-11-30T16:54:59Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8713168, 1.3630099],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10068272309993621032",
+        "Location": {
+          "Address": "79 Brighton Cres, Singapore 559218",
+          "Business Name": "Sun Ray Cafe",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3630099",
+            "Longitude": "103.8713168"
+          }
+        },
+        "Published": "2021-11-30T16:54:47Z",
+        "Title": "Sun Ray Cafe",
+        "Updated": "2021-11-30T16:54:47Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8455431, 1.3270981],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13868650453387711607",
+        "Location": {
+          "Address": "530 Balestier Rd, #01-07 Monville Mansions, Singapore 329857",
+          "Business Name": "I.N.U Cafe & Boutique",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3270981",
+            "Longitude": "103.8455431"
+          }
+        },
+        "Published": "2021-11-30T16:54:42Z",
+        "Title": "I.N.U Cafe & Boutique",
+        "Updated": "2021-11-30T16:54:42Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8362536, 1.352907],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10602558057419166505",
+        "Location": {
+          "Address": "6 Sin Ming Rd, #01-01/02, Singapore 575585",
+          "Business Name": "Menage Cafe",
+          "Geo Coordinates": {
+            "Latitude": "1.3529070",
+            "Longitude": "103.8362536"
+          }
+        },
+        "Published": "2021-11-30T16:54:29Z",
+        "Title": "Menage Cafe",
+        "Updated": "2021-11-30T16:54:29Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7933068, 1.3377019],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=17054491309389730639",
+        "Location": {
+          "Address": "200 Turf Club Rd, #01-29, Singapore 287994",
+          "Business Name": "Wooftopia Pet Cafe",
+          "Geo Coordinates": {
+            "Latitude": "1.3377019",
+            "Longitude": "103.7933068"
+          }
+        },
+        "Published": "2021-11-30T16:54:19Z",
+        "Title": "Wooftopia Pet Cafe",
+        "Updated": "2021-11-30T16:54:19Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7668887, 1.3030208],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2695127697252773198",
+        "Location": {
+          "Address": "West Coast Rd, Singapore",
+          "Business Name": "Clementi Woods Park Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3030208",
+            "Longitude": "103.7668887"
+          }
+        },
+        "Published": "2021-11-30T16:47:46Z",
+        "Title": "Clementi Woods Park Dog Run",
+        "Updated": "2021-11-30T16:47:46Z"
+      },
+      "type": "Feature"
+    }
+  ]
+}

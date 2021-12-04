@@ -1,0 +1,335 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [103.7263863, 1.333077],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14035565968518056717",
+        "Location": {
+          "Address": "Singapore",
+          "Business Name": "Jurong Lake Garden - Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3330770",
+            "Longitude": "103.7263863"
+          }
+        },
+        "Published": "2021-11-30T16:47:56Z",
+        "Title": "Jurong Lake Garden - Dog Run",
+        "Updated": "2021-11-30T16:47:56Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7668887, 1.3030208],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2695127697252773198",
+        "Location": {
+          "Address": "West Coast Rd, Singapore",
+          "Business Name": "Clementi Woods Park Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3030208",
+            "Longitude": "103.7668887"
+          }
+        },
+        "Published": "2021-11-30T16:47:46Z",
+        "Title": "Clementi Woods Park Dog Run",
+        "Updated": "2021-11-30T16:47:46Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7747426, 1.2874251],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=3211604067782543441",
+        "Location": {
+          "Address": "Singapore",
+          "Business Name": "West Coast Park Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2874251",
+            "Longitude": "103.7747426"
+          }
+        },
+        "Published": "2021-11-30T16:47:28Z",
+        "Title": "West Coast Park Dog Run",
+        "Updated": "2021-11-30T16:47:28Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.9031493, 1.3108518],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=370355991168342999",
+        "Location": {
+          "Address": "36 Koon Seng Rd, Singapore 426978",
+          "Business Name": "Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3108518",
+            "Longitude": "103.9031493"
+          }
+        },
+        "Published": "2021-11-30T16:47:11Z",
+        "Title": "Dog Run",
+        "Updated": "2021-11-30T16:47:11Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.9660462, 1.3621081],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=3781984171581709159",
+        "Location": {
+          "Address": "377 Old Tampines Rd, Singapore",
+          "Business Name": "Mariam Way Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3621081",
+            "Longitude": "103.9660462"
+          }
+        },
+        "Published": "2021-11-30T16:46:50Z",
+        "Title": "Mariam Way Dog Run",
+        "Updated": "2021-11-30T16:46:50Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.914956, 1.3276065],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=16968747753011483991",
+        "Location": {
+          "Address": "Lengkong Enam, Singapore",
+          "Business Name": "Dog Run at Kembangan",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3276065",
+            "Longitude": "103.9149560"
+          }
+        },
+        "Published": "2021-11-30T16:46:36Z",
+        "Title": "Dog Run at Kembangan",
+        "Updated": "2021-11-30T16:46:36Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.9290947, 1.3361684],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10216474489922438385",
+        "Location": {
+          "Address": "Singapore",
+          "Business Name": "Bedok Town Park Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3361684",
+            "Longitude": "103.9290947"
+          }
+        },
+        "Published": "2021-11-30T16:46:16Z",
+        "Title": "Bedok Town Park Dog Run",
+        "Updated": "2021-11-30T16:46:16Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.9369393, 1.3538215],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=3159039235324515663",
+        "Location": {
+          "Address": "Singapore",
+          "Business Name": "Tampines Central Park Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3538215",
+            "Longitude": "103.9369393"
+          }
+        },
+        "Published": "2021-11-30T16:45:39Z",
+        "Title": "Tampines Central Park Dog Run",
+        "Updated": "2021-11-30T16:45:39Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.885949, 1.2964538],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=18298358376909140393",
+        "Location": {
+          "Address": "dog park near Katong, Singapore",
+          "Business Name": "Katong Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2964538",
+            "Longitude": "103.8859490"
+          }
+        },
+        "Published": "2021-11-30T16:45:24Z",
+        "Title": "Katong Dog Run",
+        "Updated": "2021-11-30T16:45:24Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8412258, 1.4268024],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2554607239899445960",
+        "Location": {
+          "Address": "Plaza 3, Yishun Park, Singapore",
+          "Business Name": "Yishun Park Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.4268024",
+            "Longitude": "103.8412258"
+          }
+        },
+        "Published": "2021-11-30T16:44:06Z",
+        "Title": "Yishun Park Dog Run",
+        "Updated": "2021-11-30T16:44:06Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8352338, 1.461097],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13494388244011657148",
+        "Location": {
+          "Address": "Singapore",
+          "Business Name": "Sembawang Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.4610970",
+            "Longitude": "103.8352338"
+          }
+        },
+        "Published": "2021-11-30T16:43:52Z",
+        "Title": "Sembawang Dog Run",
+        "Updated": "2021-11-30T16:43:52Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.9003497, 1.3776717],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=15210123559095813081",
+        "Location": {
+          "Address": "532471, 471B Upper Serangoon Cres, Singapore",
+          "Business Name": "Dog Run @ Punggol Park",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3776717",
+            "Longitude": "103.9003497"
+          }
+        },
+        "Published": "2021-11-30T16:43:31Z",
+        "Title": "Dog Run @ Punggol Park",
+        "Updated": "2021-11-30T16:43:31Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8464913, 1.3286121],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=4942564614766406845",
+        "Location": {
+          "Address": "16 Tai Gin Rd, Singapore",
+          "Business Name": "Our Space @ Tai Gin",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3286121",
+            "Longitude": "103.8464913"
+          }
+        },
+        "Published": "2021-11-30T16:42:49Z",
+        "Title": "Our Space @ Tai Gin",
+        "Updated": "2021-11-30T16:42:49Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8333785, 1.2826958],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=16892437803676361717",
+        "Location": {
+          "Address": "Behind 82 Tiong Poh Road, Sit Wah Rd, Enter by, Singapore 160082",
+          "Business Name": "Tiong Bahru Sit Wah Dog Run",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2826958",
+            "Longitude": "103.8333785"
+          }
+        },
+        "Published": "2021-11-30T16:42:13Z",
+        "Title": "Tiong Bahru Sit Wah Dog Run",
+        "Updated": "2021-11-30T16:42:13Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8486133, 1.3623506],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=3408267016456374759",
+        "Location": {
+          "Address": "453 Ang Mo Kio Ave 1, Singapore 569972",
+          "Business Name": "Bishan Park - Dog Run Area",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3623506",
+            "Longitude": "103.8486133"
+          }
+        },
+        "Published": "2021-11-30T16:41:05Z",
+        "Title": "Bishan Park - Dog Run Area",
+        "Updated": "2021-11-30T16:41:05Z"
+      },
+      "type": "Feature"
+    }
+  ]
+}

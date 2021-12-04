@@ -1,0 +1,425 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [103.9311212, 1.3293002],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=528920903976631897",
+        "Location": {
+          "Address": "Bedok North Ave 2, #01-136 Block 412, Singapore 460412",
+          "Business Name": "Furkids Home",
+          "Geo Coordinates": {
+            "Latitude": "1.3293002",
+            "Longitude": "103.9311212"
+          }
+        },
+        "Published": "2021-11-30T16:24:25Z",
+        "Title": "Furkids Home",
+        "Updated": "2021-11-30T16:24:25Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8628366, 1.3112556],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=4768708880555960806",
+        "Location": {
+          "Address": "112 Lavender St, #01-05 Chang Hua Building, Singapore 338728",
+          "Business Name": "OLO.SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3112556",
+            "Longitude": "103.8628366"
+          }
+        },
+        "Published": "2021-11-30T16:23:59Z",
+        "Title": "OLO.SG",
+        "Updated": "2021-11-30T16:23:59Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.90238, 1.313294],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2945440606902581888",
+        "Location": {
+          "Address": "29 Everitt Rd, Singapore 428576",
+          "Business Name": "Pets Eden Spa & Salon",
+          "Geo Coordinates": {
+            "Latitude": "1.3132940",
+            "Longitude": "103.9023800"
+          }
+        },
+        "Published": "2021-11-30T16:23:41Z",
+        "Title": "Pets Eden Spa & Salon",
+        "Updated": "2021-11-30T16:23:41Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.9012959, 1.3260683],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=920608373371354999",
+        "Location": {
+          "Address": "350 Ubi Ave 1, #01-939, Singapore 400350",
+          "Business Name": "Pawsitive Image",
+          "Geo Coordinates": {
+            "Latitude": "1.3260683",
+            "Longitude": "103.9012959"
+          }
+        },
+        "Published": "2021-11-30T16:23:06Z",
+        "Title": "Pawsitive Image",
+        "Updated": "2021-11-30T16:23:06Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.893366, 1.3139247],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9473705494837866831",
+        "Location": {
+          "Address": "Esta Ruby #01-01, 500 Guillemard Rd, Singapore 399839",
+          "Business Name": "Michiko Pet Groomers",
+          "Geo Coordinates": {
+            "Latitude": "1.3139247",
+            "Longitude": "103.8933660"
+          }
+        },
+        "Published": "2021-11-30T16:22:35Z",
+        "Title": "Michiko Pet Groomers",
+        "Updated": "2021-11-30T16:22:35Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8647132, 1.3233789],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13494145465614868299",
+        "Location": {
+          "Address": "1074 Serangoon Rd, Singapore 328179",
+          "Business Name": "Dog Avenue",
+          "Geo Coordinates": {
+            "Latitude": "1.3233789",
+            "Longitude": "103.8647132"
+          }
+        },
+        "Published": "2021-11-30T16:21:51Z",
+        "Title": "Dog Avenue",
+        "Updated": "2021-11-30T16:21:51Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8054027, 1.2872753],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=12019753896576034281",
+        "Location": {
+          "Address": "Alexandra Central Mall, 321 Alexandra Rd, #02-12, Singapore 159971",
+          "Business Name": "K9 Coiffure Grooming Salon",
+          "Geo Coordinates": {
+            "Latitude": "1.2872753",
+            "Longitude": "103.8054027"
+          }
+        },
+        "Published": "2021-11-30T16:20:55Z",
+        "Title": "K9 Coiffure Grooming Salon",
+        "Updated": "2021-11-30T16:20:55Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8856916, 1.3729783],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11613346529461719812",
+        "Location": {
+          "Address": "681 Hougang Ave 8, #01-861, Singapore 530681",
+          "Business Name": "Pink Poodle. Asian Fusion Dog Groomers",
+          "Geo Coordinates": {
+            "Latitude": "1.3729783",
+            "Longitude": "103.8856916"
+          }
+        },
+        "Published": "2021-11-30T16:20:46Z",
+        "Title": "Pink Poodle. Asian Fusion Dog Groomers",
+        "Updated": "2021-11-30T16:20:46Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8265938, 1.4286201],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9026995046175306910",
+        "Location": {
+          "Address": "445 Sembawang Rd, Singapore 758403",
+          "Business Name": "Fur & Away (Pet Grooming Salon)",
+          "Geo Coordinates": {
+            "Latitude": "1.4286201",
+            "Longitude": "103.8265938"
+          }
+        },
+        "Published": "2021-11-30T16:20:00Z",
+        "Title": "Fur & Away (Pet Grooming Salon)",
+        "Updated": "2021-11-30T16:20:00Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8510185, 1.3623423],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=361199448586491546",
+        "Location": {
+          "Address": "Ang Mo Kio Ave 1, #01-1831 Block 330, Singapore 560330",
+          "Business Name": "Doggylicious Studio - Dog grooming service",
+          "Geo Coordinates": {
+            "Latitude": "1.3623423",
+            "Longitude": "103.8510185"
+          }
+        },
+        "Published": "2021-11-30T16:19:53Z",
+        "Title": "Doggylicious Studio - Dog grooming service",
+        "Updated": "2021-11-30T16:19:53Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7698766, 1.322682],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=1343120302593304588",
+        "Location": {
+          "Address": "105 Clementi Street 12, #01-08, Singapore 120105",
+          "Business Name": "Pawsitive Petcare - Pet Grooming Singapore",
+          "Geo Coordinates": {
+            "Latitude": "1.3226820",
+            "Longitude": "103.7698766"
+          }
+        },
+        "Published": "2021-11-30T16:19:36Z",
+        "Title": "Pawsitive Petcare - Pet Grooming Singapore",
+        "Updated": "2021-11-30T16:19:36Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7716017, 1.3146976],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=1119535993813867763",
+        "Location": {
+          "Address": "352 Clementi Ave 2, #01-117, Singapore 120352",
+          "Business Name": "Pawrus Pet Grooming",
+          "Geo Coordinates": {
+            "Latitude": "1.3146976",
+            "Longitude": "103.7716017"
+          }
+        },
+        "Published": "2021-11-30T16:19:27Z",
+        "Title": "Pawrus Pet Grooming",
+        "Updated": "2021-11-30T16:19:27Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.739864, 1.3441786],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14255563178952144726",
+        "Location": {
+          "Address": "259 Jurong East St 24, #01-441 Block 259, Singapore 600259",
+          "Business Name": "First Class Pets",
+          "Geo Coordinates": {
+            "Latitude": "1.3441786",
+            "Longitude": "103.7398640"
+          }
+        },
+        "Published": "2021-11-30T16:19:22Z",
+        "Title": "First Class Pets",
+        "Updated": "2021-11-30T16:19:22Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7730199, 1.3409412],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=8107847688151294715",
+        "Location": {
+          "Address": "21 Lor Kilat, Singapore 598123",
+          "Business Name": "Pet Passion",
+          "Geo Coordinates": {
+            "Latitude": "1.3409412",
+            "Longitude": "103.7730199"
+          }
+        },
+        "Published": "2021-11-30T16:19:18Z",
+        "Title": "Pet Passion",
+        "Updated": "2021-11-30T16:19:18Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.744394, 1.3774405],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=8754222704058946557",
+        "Location": {
+          "Address": "Choa Chu Kang Ave 1, #01-16 Block 253, Singapore 680253",
+          "Business Name": "Pet's Lagoon",
+          "Geo Coordinates": {
+            "Latitude": "1.3774405",
+            "Longitude": "103.7443940"
+          }
+        },
+        "Published": "2021-11-30T16:19:12Z",
+        "Title": "Pet's Lagoon",
+        "Updated": "2021-11-30T16:19:12Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7687994, 1.3364812],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7839251337311781015",
+        "Location": {
+          "Address": "5 Eng Kong Terrace, Singapore 598977",
+          "Business Name": "June's Pethouse",
+          "Geo Coordinates": {
+            "Latitude": "1.3364812",
+            "Longitude": "103.7687994"
+          }
+        },
+        "Published": "2021-11-30T16:19:05Z",
+        "Title": "June's Pethouse",
+        "Updated": "2021-11-30T16:19:05Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7463817, 1.3467611],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=3977220028085994823",
+        "Location": {
+          "Address": "109 Bukit Batok West Ave 6, 01-02, Singapore 650109",
+          "Business Name": "Bukit Barkdog Grooming",
+          "Geo Coordinates": {
+            "Latitude": "1.3467611",
+            "Longitude": "103.7463817"
+          }
+        },
+        "Published": "2021-11-30T16:18:59Z",
+        "Title": "Bukit Barkdog Grooming",
+        "Updated": "2021-11-30T16:18:59Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7494224, 1.3635324],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=4742190664117446093",
+        "Location": {
+          "Address": "Singapore 650337",
+          "Business Name": "TOP RATED Mobile Pet Grooming Services In Singapore (The Precious Pets)",
+          "Geo Coordinates": {
+            "Latitude": "1.3635324",
+            "Longitude": "103.7494224"
+          }
+        },
+        "Published": "2021-11-30T16:18:47Z",
+        "Title": "TOP RATED Mobile Pet Grooming Services In Singapore (The Precious Pets)",
+        "Updated": "2021-11-30T16:18:47Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7518528, 1.3639719],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=6013546706184850609",
+        "Location": {
+          "Address": "395A Bukit Batok West Ave 5, Singapore 651395",
+          "Business Name": "Yappily Pets",
+          "Geo Coordinates": {
+            "Latitude": "1.3639719",
+            "Longitude": "103.7518528"
+          }
+        },
+        "Published": "2021-11-30T16:18:41Z",
+        "Title": "Yappily Pets",
+        "Updated": "2021-11-30T16:18:41Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7793746, 1.3368085],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=5513433443504190963",
+        "Location": {
+          "Address": "9 King Albert Park, #01-13, Singapore 598332",
+          "Business Name": "Mewtants & Woofs - Pet Grooming and more",
+          "Geo Coordinates": {
+            "Latitude": "1.3368085",
+            "Longitude": "103.7793746"
+          }
+        },
+        "Published": "2021-11-30T16:18:21Z",
+        "Title": "Mewtants & Woofs - Pet Grooming and more",
+        "Updated": "2021-11-30T16:18:21Z"
+      },
+      "type": "Feature"
+    }
+  ]
+}
