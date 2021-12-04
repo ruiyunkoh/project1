@@ -17,39 +17,6 @@ L.tileLayer(
   }
 ).addTo(map);
 
-// window.addEventListener("DOMContentLoaded", async function () {
-//   // Pet boarding locator marker cluster group
-
-//   let boardingResponse = await axios.get("data/pet-boarding.geojson");
-//   let boardingObjects = boardingResponse.data.features;
-//   // console.log(boardingObjects);
-//   let boardingMarkerCluster = L.markerClusterGroup();
-//   for (let i = 0; i < boardingObjects.length; i++) {
-//     let pos = boardingObjects[i];
-//     let boardingCoordinates = pos.geometry.coordinates;
-//     // console.log(boardingCoordinates, pos.properties.Location["Business Name"]);
-//     L.marker([boardingCoordinates[1], boardingCoordinates[0]])
-//       .bindPopup(
-//         `
-//     <p> ${pos.properties.Location["Business Name"]} </p>
-//     <p> Address: ${pos.properties.Location.Address}</p>
-//     `
-//       )
-//       .addTo(boardingMarkerCluster);
-//   }
-//   // boardingMarkerCluster.addTo(map);
-
-//   let boardingLayer = L.layerGroup(boardingMarkerCluster);
-
-//   let baseMaps = {};
-
-//   let overlayMaps = {
-//     "Pet Boarding": boardingLayer,
-//   };
-
-//   L.control.layers(baseMaps, overlayMaps).addTo(map);
-// });
-
 //creating icons
 
 let boardingIcon = L.icon({
@@ -59,7 +26,7 @@ let boardingIcon = L.icon({
 
 let groomerIcon = L.icon({
   iconUrl: "https://img.icons8.com/cotton/64/000000/barbershop.png",
-  iconSize: [32, 37],
+  iconSize: [25, 25],
 });
 
 let runIcon = L.icon({
@@ -84,45 +51,39 @@ let foodIcon = L.icon({
 
 let hotelIcon = L.icon({
   iconUrl: "https://img.icons8.com/cotton/64/000000/hotel-building--v2.png",
-  iconSize: [32, 37],
+  iconSize: [25, 28],
 });
 
-//add marker layers to map
+//Adding POI
 
-let boardingLayer = L.layerGroup();
-let groomerLayer = L.layerGroup();
-let dogrunLayer = L.layerGroup();
-let petpoolLayer = L.layerGroup();
-let foodLayer = L.layerGroup();
-let hotelLayer = L.layerGroup();
-
-async function getBoardingLayer() {
+window.addEventListener("DOMContentLoaded", async function () {
+  // Pet boarding locator marker cluster group
   let boardingResponse = await axios.get("data/pet-boarding.geojson");
   let boardingObjects = boardingResponse.data.features;
+  let boardingMarkerCluster = L.markerClusterGroup();
   for (let i = 0; i < boardingObjects.length; i++) {
     let pos = boardingObjects[i];
     let boardingCoordinates = pos.geometry.coordinates;
-    // console.log(boardingCoordinates, pos.properties.Location["Business Name"]);
+
     L.marker([boardingCoordinates[1], boardingCoordinates[0]], {
       icon: boardingIcon,
     })
       .bindPopup(
         `
-        <p> ${pos.properties.Location["Business Name"]} </p>
-        <p> Address: ${pos.properties.Location.Address}</p>
-        `
+    <p> ${pos.properties.Location["Business Name"]} </p>
+    <p> Address: ${pos.properties.Location.Address}</p>
+    `
       )
-      .addTo(boardingLayer);
+      .addTo(boardingMarkerCluster);
   }
-  return;
-}
-async function getGroomerLayer() {
+
+  //Pet Groomer locator marker cluster group
   let groomerResponse = await axios.get("data/groomers.geojson");
   let groomerObjects = groomerResponse.data.features;
+  let groomerMarkerCluster = L.markerClusterGroup();
   for (let i = 0; i < groomerObjects.length; i++) {
     let pos = groomerObjects[i];
     let groomerCoordinates = pos.geometry.coordinates;
-    // console.log(groomerCoordinates, pos.properties.Location["Business Name"]);
     L.marker([groomerCoordinates[1], groomerCoordinates[0]], {
       icon: groomerIcon,
     })
@@ -132,17 +93,16 @@ async function getGroomerLayer() {
         <p> Address: ${pos.properties.Location.Address}</p>
         `
       )
-      .addTo(groomerLayer);
+      .addTo(groomerMarkerCluster);
   }
-  return;
-}
-async function getDogrunLayer() {
+
+  //Dog-run locator marker cluster group
   let dogrunResponse = await axios.get("data/dog-run.geojson");
   let dogrunObjects = dogrunResponse.data.features;
+  let dogrunMarkerCluster = L.markerClusterGroup();
   for (let i = 0; i < dogrunObjects.length; i++) {
     let pos = dogrunObjects[i];
     let dogrunCoordinates = pos.geometry.coordinates;
-    // console.log(dogrunCoordinates, pos.properties.Location["Business Name"]);
     L.marker([dogrunCoordinates[1], dogrunCoordinates[0]], { icon: runIcon })
       .bindPopup(
         `
@@ -150,17 +110,16 @@ async function getDogrunLayer() {
         <p> Address: ${pos.properties.Location.Address}</p>
         `
       )
-      .addTo(dogrunLayer);
+      .addTo(dogrunMarkerCluster);
   }
-  return;
-}
-async function getPetpoolLayer() {
+
+  //Pet-pool locator marker cluster group
   let petpoolResponse = await axios.get("data/pet-pool.geojson");
   let petpoolObjects = petpoolResponse.data.features;
+  let petpoolMarkerCluster = L.markerClusterGroup();
   for (let i = 0; i < petpoolObjects.length; i++) {
     let pos = petpoolObjects[i];
     let petpoolCoordinates = pos.geometry.coordinates;
-    // console.log(petpoolCoordinates, pos.properties.Location["Business Name"]);
     L.marker([petpoolCoordinates[1], petpoolCoordinates[0]], { icon: poolIcon })
       .bindPopup(
         `
@@ -168,17 +127,16 @@ async function getPetpoolLayer() {
         <p> Address: ${pos.properties.Location.Address}</p>
         `
       )
-      .addTo(petpoolLayer);
+      .addTo(petpoolMarkerCluster);
   }
-  return;
-}
-async function getFoodLayer() {
+
+  //food locator marker cluster group
   let foodResponse = await axios.get("data/food.geojson");
   let foodObjects = foodResponse.data.features;
+  let foodMarkerCluster = L.markerClusterGroup();
   for (let i = 0; i < foodObjects.length; i++) {
     let pos = foodObjects[i];
     let foodCoordinates = pos.geometry.coordinates;
-    // console.log(foodCoordinates, pos.properties.Location["Business Name"]);
     L.marker([foodCoordinates[1], foodCoordinates[0]], { icon: foodIcon })
       .bindPopup(
         `
@@ -186,17 +144,16 @@ async function getFoodLayer() {
         <p> Address: ${pos.properties.Location.Address}</p>
         `
       )
-      .addTo(foodLayer);
+      .addTo(foodMarkerCluster);
   }
-  return;
-}
-async function getHotelLayer() {
+
+  //Hotel locator marker cluster group
   let hotelResponse = await axios.get("data/hotel.geojson");
   let hotelObjects = hotelResponse.data.features;
+  let hotelMarkerCluster = L.markerClusterGroup();
   for (let i = 0; i < hotelObjects.length; i++) {
     let pos = hotelObjects[i];
     let hotelCoordinates = pos.geometry.coordinates;
-    // console.log(hotelCoordinates, pos.properties.Location["Business Name"]);
     L.marker([hotelCoordinates[1], hotelCoordinates[0]], { icon: hotelIcon })
       .bindPopup(
         `
@@ -204,33 +161,33 @@ async function getHotelLayer() {
         <p> Address: ${pos.properties.Location.Address}</p>
         `
       )
-      .addTo(hotelLayer);
+      .addTo(hotelMarkerCluster);
   }
-  return;
-}
 
-async function addMapLayers() {
-  await getBoardingLayer();
-  await getGroomerLayer();
-  await getDogrunLayer();
-  await getPetpoolLayer();
-  await getFoodLayer();
-  await getHotelLayer();
+  //Add to Layer
+  let boardingLayer = L.layerGroup();
+  boardingMarkerCluster.addTo(boardingLayer);
+  let groomerLayer = L.layerGroup();
+  groomerMarkerCluster.addTo(groomerLayer);
+  let dogrunLayer = L.layerGroup();
+  dogrunMarkerCluster.addTo(dogrunLayer);
+  let petpoolLayer = L.layerGroup();
+  petpoolMarkerCluster.addTo(petpoolLayer);
+  let foodLayer = L.layerGroup();
+  foodMarkerCluster.addTo(foodLayer);
+  let hotelLayer = L.layerGroup();
+  hotelMarkerCluster.addTo(hotelLayer);
 
-  let baseLayers = {};
-  let overlays = {
+  let baseMaps = {};
+
+  let overlayMaps = {
     "Pet Boarding": boardingLayer,
     Groomers: groomerLayer,
     "Dog-run": dogrunLayer,
-    "Pet Pools": petpoolLayer,
-    "Pet-friendly restaurants": foodLayer,
-    "Pet-friendly staycation": hotelLayer,
+    "Pet-Pools": petpoolLayer,
+    "Pet-friendly Restaurants": foodLayer,
+    "Pet-friendly Staycations": hotelLayer,
   };
 
-  L.control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
-}
-
-window.addEventListener("DOMContentLoaded", async (event) => {
-  // setup event listeners here
-  await addMapLayers();
+  L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
 });
