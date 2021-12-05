@@ -56,6 +56,13 @@ let hotelIcon = L.icon({
 
 //Adding POI
 
+let boardingLayer = L.layerGroup();
+let groomerLayer = L.layerGroup();
+let dogrunLayer = L.layerGroup();
+let petpoolLayer = L.layerGroup();
+let foodLayer = L.layerGroup();
+let hotelLayer = L.layerGroup();
+
 window.addEventListener("DOMContentLoaded", async function () {
   // Pet boarding locator marker cluster group
   let boardingResponse = await axios.get("data/pet-boarding.geojson");
@@ -165,29 +172,23 @@ window.addEventListener("DOMContentLoaded", async function () {
   }
 
   //Add to Layer
-  let boardingLayer = L.layerGroup();
   boardingMarkerCluster.addTo(boardingLayer);
-  let groomerLayer = L.layerGroup();
   groomerMarkerCluster.addTo(groomerLayer);
-  let dogrunLayer = L.layerGroup();
   dogrunMarkerCluster.addTo(dogrunLayer);
-  let petpoolLayer = L.layerGroup();
   petpoolMarkerCluster.addTo(petpoolLayer);
-  let foodLayer = L.layerGroup();
   foodMarkerCluster.addTo(foodLayer);
-  let hotelLayer = L.layerGroup();
   hotelMarkerCluster.addTo(hotelLayer);
 
-  let baseMaps = {};
+  // let baseMaps = {};
 
-  let overlayMaps = {
-    "Pet Boarding": boardingLayer,
-    Groomers: groomerLayer,
-    "Dog-run": dogrunLayer,
-    "Pet-Pools": petpoolLayer,
-    "Pet-friendly Restaurants": foodLayer,
-    "Pet-friendly Staycations": hotelLayer,
-  };
+  // let overlayMaps = {
+  //   "Pet Boarding": boardingLayer,
+  //   Groomers: groomerLayer,
+  //   "Dog-run": dogrunLayer,
+  //   "Pet-Pools": petpoolLayer,
+  //   "Pet-friendly Restaurants": foodLayer,
+  //   "Pet-friendly Staycations": hotelLayer,
+  // };
 
-  L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
+  // L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
 });

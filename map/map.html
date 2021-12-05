@@ -22,7 +22,65 @@
     <link rel="stylesheet" href="map.css" />
   </head>
   <body>
-    <div id="map"></div>
+    <div id="map-container">
+      <div id="map"></div>
+      <div id="control-overlay">
+        <div class="region-filter">
+          <label for="region">Select region:</label>
+          <select
+            name="region"
+            id="singapore-regions"
+            onchange="zoomOnSelect()"
+          >
+            <option value="all" selected>Show All</option>
+            <option value="north">North</option>
+            <option value="central">Central</option>
+            <option value="east">East</option>
+            <option value="west">West</option>
+          </select>
+        </div>
+        <div class="layer-options">
+          <h3>Amenities to choose</h3>
+          <input
+            type="checkbox"
+            id="pet-boarding"
+            name="pet-boarding"
+            value="pet-boarding"
+          />
+          <label for="pet-boarding"> Pet Boarding</label><br />
+          <input
+            type="checkbox"
+            id="groomers"
+            name="groomers"
+            value="groomers"
+          />
+          <label for="groomers"> Groomers</label><br />
+          <input type="checkbox" id="dog-run" name="dog-run" value="dog-run" />
+          <label for="dog-run"> Dog-run</label><br />
+          <input
+            type="checkbox"
+            id="pet-pools"
+            name="pet-pools"
+            value="pet-pools"
+          />
+          <label for="pet-pools"> Pet-Pools</label><br />
+          <input
+            type="checkbox"
+            id="restaurants"
+            name="restaurants"
+            value="restaurants"
+          />
+          <label for="restaurants"> Pet-friendly Restaurants</label><br />
+          <input
+            type="checkbox"
+            id="staycation"
+            name="staycation"
+            value="staycation"
+          />
+          <label for="staycation"> Pet-friendly Staycations</label><br /><br />
+        </div>
+      </div>
+    </div>
     <script
       src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
       integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
@@ -30,6 +88,7 @@
     ></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
