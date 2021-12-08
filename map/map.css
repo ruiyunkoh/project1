@@ -12,22 +12,35 @@
 #control-overlay {
   position: absolute;
   z-index: 314159;
-  min-width: 300px;
+  min-width: 230px;
   min-height: 50px;
   bottom: 5px;
   left: 45px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.719);
   padding-top: 25px;
   padding-left: 25px;
+  transition: 0.4s;
+}
+
+#control-overlay.active {
+  bottom: -280px;
+}
+
+.toggle-btn {
+  position: absolute;
+  right: 20px;
+  top: 15px;
 }
 
 .region-filter {
   font-family: "Montserrat", sans-serif;
+  font-size: smaller;
 }
 
 .layer-options {
   padding-top: 10px;
   font-family: "Montserrat", sans-serif;
+  font-size: smaller;
 }
 
 h3 {

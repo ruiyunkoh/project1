@@ -73,3 +73,18 @@ function zoomOnSelect() {
     map.setView([1.3521, 103.8198], 12);
   }
 }
+
+// Reset zoom to original
+document.querySelector(".reset-button").addEventListener("click", function () {
+  map.setView([1.3521, 103.8198], 12);
+  map.addLayer(boardingLayer);
+  map.addLayer(groomerLayer);
+  map.addLayer(dogrunLayer);
+  map.addLayer(petpoolLayer);
+  map.addLayer(foodLayer);
+  map.addLayer(hotelLayer);
+});
+
+function show() {
+  document.getElementById("control-overlay").classList.toggle("active");
+}

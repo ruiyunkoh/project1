@@ -7,6 +7,13 @@
     <title>Map</title>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
       crossorigin=""
@@ -29,75 +36,81 @@
         >
       </div>
       <div id="map"></div>
-      <form id="control-overlay">
-        <div class="region-filter">
-          <h3>Zoom into Regions</h3>
-          <label for="region">Select region:</label>
-          <select
-            name="region"
-            id="singapore-regions"
-            onchange="zoomOnSelect()"
-          >
-            <option value="all" selected>Show All</option>
-            <option value="north">North</option>
-            <option value="central">Central</option>
-            <option value="east">East</option>
-            <option value="west">West</option>
-          </select>
+      <div id="control-overlay">
+        <div class="toggle-btn" onclick="show()">
+          <i class="fas fa-arrows-alt-v"></i>
         </div>
-        <div class="layer-options">
-          <h3>Amenities to choose</h3>
-          <input
-            type="checkbox"
-            id="pet-boarding"
-            name="pet-boarding"
-            value="pet-boarding"
-            checked
-          />
-          <label for="pet-boarding"> Pet Boarding</label><br />
-          <input
-            type="checkbox"
-            id="groomers"
-            name="groomers"
-            value="groomers"
-            checked
-          />
-          <label for="groomers"> Groomers</label><br />
-          <input
-            type="checkbox"
-            id="dog-run"
-            name="dog-run"
-            value="dog-run"
-            checked
-          />
-          <label for="dog-run"> Dog-run</label><br />
-          <input
-            type="checkbox"
-            id="pet-pools"
-            name="pet-pools"
-            value="pet-pools"
-            checked
-          />
-          <label for="pet-pools"> Pet-Pools</label><br />
-          <input
-            type="checkbox"
-            id="restaurants"
-            name="restaurants"
-            value="restaurants"
-            checked
-          />
-          <label for="restaurants"> Pet-friendly Restaurants</label><br />
-          <input
-            type="checkbox"
-            id="staycation"
-            name="staycation"
-            value="staycation"
-            checked
-          />
-          <label for="staycation"> Pet-friendly Staycations</label><br /><br />
-        </div>
-        <input class="reset-button" type="reset" value="Reset" />
-      </form>
+        <form>
+          <div class="region-filter">
+            <h3>Zoom into Regions</h3>
+            <label for="region">Select region:</label>
+            <select
+              name="region"
+              id="singapore-regions"
+              onchange="zoomOnSelect()"
+            >
+              <option value="all" selected>Show All</option>
+              <option value="north">North</option>
+              <option value="central">Central</option>
+              <option value="east">East</option>
+              <option value="west">West</option>
+            </select>
+          </div>
+          <div class="layer-options">
+            <h3>Amenities to choose</h3>
+            <input
+              type="checkbox"
+              id="pet-boarding"
+              name="pet-boarding"
+              value="pet-boarding"
+              checked
+            />
+            <label for="pet-boarding"> Pet Boarding</label><br />
+            <input
+              type="checkbox"
+              id="groomers"
+              name="groomers"
+              value="groomers"
+              checked
+            />
+            <label for="groomers"> Groomers</label><br />
+            <input
+              type="checkbox"
+              id="dog-run"
+              name="dog-run"
+              value="dog-run"
+              checked
+            />
+            <label for="dog-run"> Dog-run</label><br />
+            <input
+              type="checkbox"
+              id="pet-pools"
+              name="pet-pools"
+              value="pet-pools"
+              checked
+            />
+            <label for="pet-pools"> Pet-Pools</label><br />
+            <input
+              type="checkbox"
+              id="restaurants"
+              name="restaurants"
+              value="restaurants"
+              checked
+            />
+            <label for="restaurants"> Pet-friendly Restaurants</label><br />
+            <input
+              type="checkbox"
+              id="staycation"
+              name="staycation"
+              value="staycation"
+              checked
+            />
+            <label for="staycation"> Pet-friendly Staycations</label
+            ><br /><br />
+          </div>
+          <input class="reset-button" type="reset" value="Reset" />
+        </form>
+      </div>
     </div>
     <script
       src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
