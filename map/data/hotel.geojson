@@ -264,6 +264,182 @@
         "Updated": "2021-11-30T17:05:16Z"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.84144, 1.2912699],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=17611920918515761168",
+        "Location": {
+          "Address": "30 Robertson Quay, Singapore 238251",
+          "Business Name": "Village Residence Robertson Quay",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2912699",
+            "Longitude": "103.8414400"
+          }
+        },
+        "Published": "2021-12-05T15:56:51Z",
+        "Title": "Village Residence Robertson Quay",
+        "Updated": "2021-12-05T15:56:51Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8274543, 1.293189],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=549762808308101575",
+        "Location": {
+          "Address": "491A River Valley Rd, Singapore 248372",
+          "Business Name": "Fraser Suites Singapore",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2931890",
+            "Longitude": "103.8274543"
+          }
+        },
+        "Published": "2021-12-05T15:56:22Z",
+        "Title": "Fraser Suites Singapore",
+        "Updated": "2021-12-05T15:56:22Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8253016, 1.31074],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2751025032383032712",
+        "Location": {
+          "Address": "1A Lady Hill Rd, Singapore 258685",
+          "Business Name": "Shangri-La Residences, Singapore",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3107400",
+            "Longitude": "103.8253016"
+          }
+        },
+        "Published": "2021-12-05T15:56:08Z",
+        "Title": "Shangri-La Residences, Singapore",
+        "Updated": "2021-12-05T15:56:08Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.82625, 1.3164449],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=15633666681516304007",
+        "Location": {
+          "Address": "60 Stevens Rd, Singapore 257854",
+          "Business Name": "ZEN Rooms Stevens Road",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3164449",
+            "Longitude": "103.8262500"
+          }
+        },
+        "Published": "2021-12-05T15:55:47Z",
+        "Title": "ZEN Rooms Stevens Road",
+        "Updated": "2021-12-05T15:55:47Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7957694, 1.3337035],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10304443227716408620",
+        "Location": {
+          "Address": "100 Turf Club Rd, Singapore 287992",
+          "Business Name": "Pegasus Hotel",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3337035",
+            "Longitude": "103.7957694"
+          }
+        },
+        "Published": "2021-12-05T15:55:21Z",
+        "Title": "Pegasus Hotel",
+        "Updated": "2021-12-05T15:55:21Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.768604, 1.292363],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11105582984368400007",
+        "Location": {
+          "Address": "428 Pasir Panjang Rd, Singapore 118769",
+          "Business Name": "The Quay Hotel West Coast",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2923630",
+            "Longitude": "103.7686040"
+          }
+        },
+        "Published": "2021-12-05T15:55:05Z",
+        "Title": "The Quay Hotel West Coast",
+        "Updated": "2021-12-05T15:55:05Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.7953328, 1.3344215],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=16485584372895930010",
+        "Location": {
+          "Address": "100 Turf Club Rd, Singapore 287992",
+          "Business Name": "Villa Umbrella Singapore",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.3344215",
+            "Longitude": "103.7953328"
+          }
+        },
+        "Published": "2021-12-05T15:54:49Z",
+        "Title": "Villa Umbrella Singapore",
+        "Updated": "2021-12-05T15:54:49Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.8536272, 1.2832383],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=1956921587770623840",
+        "Location": {
+          "Address": "80 Collyer Quay, Singapore 049326",
+          "Business Name": "The Fullerton Bay Hotel",
+          "Country Code": "SG",
+          "Geo Coordinates": {
+            "Latitude": "1.2832383",
+            "Longitude": "103.8536272"
+          }
+        },
+        "Published": "2021-12-05T15:53:40Z",
+        "Title": "The Fullerton Bay Hotel",
+        "Updated": "2021-12-05T15:53:40Z"
+      },
+      "type": "Feature"
     }
   ]
 }

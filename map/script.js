@@ -77,10 +77,13 @@ window.addEventListener("DOMContentLoaded", async function () {
     })
       .bindPopup(
         `
-    <p> ${pos.properties.Location["Business Name"]} </p>
+    <b> ${pos.properties.Location["Business Name"]} </b>
     <p> Address: ${pos.properties.Location.Address}</p>
     `
       )
+      .on("click", function (e) {
+        map.setView(e.latlng, 14);
+      })
       .addTo(boardingMarkerCluster);
   }
 
@@ -96,10 +99,13 @@ window.addEventListener("DOMContentLoaded", async function () {
     })
       .bindPopup(
         `
-        <p> ${pos.properties.Location["Business Name"]} </p>
+        <b> ${pos.properties.Location["Business Name"]} </b>
         <p> Address: ${pos.properties.Location.Address}</p>
         `
       )
+      .on("click", function (e) {
+        map.setView(e.latlng, 14);
+      })
       .addTo(groomerMarkerCluster);
   }
 
@@ -113,10 +119,13 @@ window.addEventListener("DOMContentLoaded", async function () {
     L.marker([dogrunCoordinates[1], dogrunCoordinates[0]], { icon: runIcon })
       .bindPopup(
         `
-        <p> ${pos.properties.Location["Business Name"]} </p>
+        <b> ${pos.properties.Location["Business Name"]} </b>
         <p> Address: ${pos.properties.Location.Address}</p>
         `
       )
+      .on("click", function (e) {
+        map.setView(e.latlng, 14);
+      })
       .addTo(dogrunMarkerCluster);
   }
 
@@ -130,10 +139,13 @@ window.addEventListener("DOMContentLoaded", async function () {
     L.marker([petpoolCoordinates[1], petpoolCoordinates[0]], { icon: poolIcon })
       .bindPopup(
         `
-        <p> ${pos.properties.Location["Business Name"]} </p>
+        <b> ${pos.properties.Location["Business Name"]} </b>
         <p> Address: ${pos.properties.Location.Address}</p>
         `
       )
+      .on("click", function (e) {
+        map.setView(e.latlng, 14);
+      })
       .addTo(petpoolMarkerCluster);
   }
 
@@ -147,10 +159,13 @@ window.addEventListener("DOMContentLoaded", async function () {
     L.marker([foodCoordinates[1], foodCoordinates[0]], { icon: foodIcon })
       .bindPopup(
         `
-        <p> ${pos.properties.Location["Business Name"]} </p>
+        <b> ${pos.properties.Location["Business Name"]} </b>
         <p> Address: ${pos.properties.Location.Address}</p>
         `
       )
+      .on("click", function (e) {
+        map.setView(e.latlng, 14);
+      })
       .addTo(foodMarkerCluster);
   }
 
@@ -164,10 +179,13 @@ window.addEventListener("DOMContentLoaded", async function () {
     L.marker([hotelCoordinates[1], hotelCoordinates[0]], { icon: hotelIcon })
       .bindPopup(
         `
-        <p> ${pos.properties.Location["Business Name"]} </p>
+        <b> ${pos.properties.Location["Business Name"]} </b>
         <p> Address: ${pos.properties.Location.Address}</p>
         `
       )
+      .on("click", function (e) {
+        map.setView(e.latlng, 14);
+      })
       .addTo(hotelMarkerCluster);
   }
 
@@ -179,16 +197,11 @@ window.addEventListener("DOMContentLoaded", async function () {
   foodMarkerCluster.addTo(foodLayer);
   hotelMarkerCluster.addTo(hotelLayer);
 
-  // let baseMaps = {};
-
-  // let overlayMaps = {
-  //   "Pet Boarding": boardingLayer,
-  //   Groomers: groomerLayer,
-  //   "Dog-run": dogrunLayer,
-  //   "Pet-Pools": petpoolLayer,
-  //   "Pet-friendly Restaurants": foodLayer,
-  //   "Pet-friendly Staycations": hotelLayer,
-  // };
-
-  // L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
+  //Default shown
+  map.addLayer(boardingLayer);
+  map.addLayer(groomerLayer);
+  map.addLayer(dogrunLayer);
+  map.addLayer(petpoolLayer);
+  map.addLayer(foodLayer);
+  map.addLayer(hotelLayer);
 });

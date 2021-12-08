@@ -23,9 +23,15 @@
   </head>
   <body>
     <div id="map-container">
+      <div>
+        <a href="/index.html">
+          <button type="button" class="home-button">Home</button></a
+        >
+      </div>
       <div id="map"></div>
-      <div id="control-overlay">
+      <form id="control-overlay">
         <div class="region-filter">
+          <h3>Zoom into Regions</h3>
           <label for="region">Select region:</label>
           <select
             name="region"
@@ -46,6 +52,7 @@
             id="pet-boarding"
             name="pet-boarding"
             value="pet-boarding"
+            checked
           />
           <label for="pet-boarding"> Pet Boarding</label><br />
           <input
@@ -53,15 +60,23 @@
             id="groomers"
             name="groomers"
             value="groomers"
+            checked
           />
           <label for="groomers"> Groomers</label><br />
-          <input type="checkbox" id="dog-run" name="dog-run" value="dog-run" />
+          <input
+            type="checkbox"
+            id="dog-run"
+            name="dog-run"
+            value="dog-run"
+            checked
+          />
           <label for="dog-run"> Dog-run</label><br />
           <input
             type="checkbox"
             id="pet-pools"
             name="pet-pools"
             value="pet-pools"
+            checked
           />
           <label for="pet-pools"> Pet-Pools</label><br />
           <input
@@ -69,6 +84,7 @@
             id="restaurants"
             name="restaurants"
             value="restaurants"
+            checked
           />
           <label for="restaurants"> Pet-friendly Restaurants</label><br />
           <input
@@ -76,10 +92,12 @@
             id="staycation"
             name="staycation"
             value="staycation"
+            checked
           />
           <label for="staycation"> Pet-friendly Staycations</label><br /><br />
         </div>
-      </div>
+        <input class="reset-button" type="reset" value="Reset" />
+      </form>
     </div>
     <script
       src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
