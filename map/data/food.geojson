@@ -523,28 +523,6 @@
         "Updated": "2021-11-30T16:54:19Z"
       },
       "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [103.7668887, 1.3030208],
-        "type": "Point"
-      },
-      "properties": {
-        "Google Maps URL": "http://maps.google.com/?cid=2695127697252773198",
-        "Location": {
-          "Address": "West Coast Rd, Singapore",
-          "Business Name": "Clementi Woods Park Dog Run",
-          "Country Code": "SG",
-          "Geo Coordinates": {
-            "Latitude": "1.3030208",
-            "Longitude": "103.7668887"
-          }
-        },
-        "Published": "2021-11-30T16:47:46Z",
-        "Title": "Clementi Woods Park Dog Run",
-        "Updated": "2021-11-30T16:47:46Z"
-      },
-      "type": "Feature"
     }
   ]
 }

@@ -85,6 +85,7 @@ document.querySelector(".reset-button").addEventListener("click", function () {
   map.addLayer(hotelLayer);
 });
 
+// Sliding in out toggle button
 function show() {
   document.getElementById("control-overlay").classList.toggle("active");
 }

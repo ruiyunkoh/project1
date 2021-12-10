@@ -30,7 +30,7 @@ html {
   color: rgb(172, 185, 194);
 }
 
-/* Section highlight */
+/* Section background */
 
 .main-bg {
   width: 100%;
@@ -74,12 +74,35 @@ html {
 
 /* Main - Enter map */
 .click-section {
-  padding-top: 20px;
+  width: 100%;
+  height: calc(100vh - 76px);
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+}
+
+.click-section > img {
+  height: 100%;
+  width: 100%;
+  padding-left: 0;
+}
+
+.overlay2 {
+  width: 100%;
+  height: calc(100vh - 76px);
+  background-color: rgba(243, 236, 236, 0.342);
+  position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   text-align: start;
+  color: black;
+}
+
+.overlay2 > h1 {
   font-family: "Roboto Condensed", sans-serif;
+  color: rgb(34, 33, 32);
   font-size: 2rem;
 }
 
@@ -124,6 +147,7 @@ html {
     padding-left: 1rem;
   }
 
+  /* background img */
   .overlay {
     display: flex;
     justify-content: flex-start;
@@ -142,11 +166,12 @@ html {
     font-size: 2.5rem;
   }
 
-  .click-section {
+  /* Main */
+  .overlay2 {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-size: 2.5rem;
     padding-left: 2rem;
   }
@@ -188,7 +213,7 @@ html {
     padding-left: 5rem;
   }
 
-  .click-section {
+  .overlay2 {
     padding-left: 5rem;
   }
 
