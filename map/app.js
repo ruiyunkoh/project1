@@ -89,3 +89,30 @@ document.querySelector(".reset-button").addEventListener("click", function () {
 function show() {
   document.getElementById("control-overlay").classList.toggle("active");
 }
+
+// clicking of tabs in control panel
+function openTab(evt, tabName) {
+  let i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+document.getElementById("defaultOpen").click();
+
+//search button clicked
+document.querySelector("#search-btn").addEventListener("click", function () {
+  map.removeLayer(boardingLayer);
+  map.removeLayer(groomerLayer);
+  map.removeLayer(dogrunLayer);
+  map.removeLayer(petpoolLayer);
+  map.removeLayer(foodLayer);
+  map.removeLayer(hotelLayer);
+});

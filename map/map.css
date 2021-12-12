@@ -13,7 +13,7 @@
   position: absolute;
   z-index: 314159;
   min-width: 230px;
-  min-height: 50px;
+  min-height: 349.6px;
   bottom: 5px;
   left: 5%;
   background-color: rgba(255, 255, 255, 0.719);
@@ -23,13 +23,17 @@
 }
 
 #control-overlay.active {
-  bottom: -280px;
+  bottom: -320px;
 }
 
 .toggle-btn {
   position: absolute;
   right: 20px;
   top: 15px;
+}
+
+form {
+  padding-top: 20px;
 }
 
 .region-filter {
@@ -57,6 +61,11 @@ h3 {
   border-radius: 5px;
 }
 
+#search-container {
+  padding-top: 40px;
+  padding-right: 10px;
+}
+
 .home-button {
   position: absolute;
   z-index: 314159;
@@ -70,4 +79,37 @@ h3 {
   background-color: rgb(126, 125, 120);
   border: rgb(126, 125, 120);
   border-radius: 5px;
+}
+
+/* styling of tabs in control panel */
+
+.tab {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  /* cursor: pointer; */
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+#search-results {
+  padding-top: 20px;
 }

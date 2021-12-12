@@ -37,10 +37,22 @@
       </div>
       <div id="map"></div>
       <div id="control-overlay">
+        <div class="tab">
+          <button
+            class="tablinks"
+            id="defaultOpen"
+            onclick="openTab(event, 'filter')"
+          >
+            Filter
+          </button>
+          <button class="tablinks" onclick="openTab(event, 'search-container')">
+            Search
+          </button>
+        </div>
         <div class="toggle-btn" onclick="show()">
           <i class="fas fa-arrows-alt-v"></i>
         </div>
-        <form>
+        <form id="filter" class="tabcontent">
           <div class="region-filter">
             <h3>Zoom into Regions</h3>
             <label for="region">Select region:</label>
@@ -110,6 +122,12 @@
           </div>
           <input class="reset-button" type="reset" value="Reset" />
         </form>
+        <div id="search-container" class="tabcontent">
+          <h3>Search for an amenity</h3>
+          <input id="search-input" type="text" />
+          <button id="search-btn"><i class="fas fa-search"></i></button>
+          <div id="search-results"></div>
+        </div>
       </div>
     </div>
     <script
