@@ -54,19 +54,19 @@ function zoomOnSelect() {
   let selectElement = document.querySelector("#singapore-regions").value;
 
   if (selectElement == "north") {
-    map.setView([1.4491, 103.8185], 14);
+    map.setView([1.4491, 103.8185], 13);
   }
 
   if (selectElement == "central") {
-    map.setView([1.3048, 103.8318], 14);
+    map.setView([1.3048, 103.8318], 13);
   }
 
   if (selectElement == "east") {
-    map.setView([1.3236, 103.9273], 14);
+    map.setView([1.3236, 103.9273], 13);
   }
 
   if (selectElement == "west") {
-    map.setView([1.3162, 103.7649], 14);
+    map.setView([1.3162, 103.7649], 13);
   }
 
   if (selectElement == "all") {

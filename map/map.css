@@ -16,7 +16,7 @@
   min-height: 349.6px;
   bottom: 5px;
   left: 5%;
-  background-color: rgba(255, 255, 255, 0.719);
+  background-color: rgba(255, 255, 255, 0.897);
   padding-top: 25px;
   padding-left: 25px;
   transition: 0.4s;
@@ -45,6 +45,11 @@ form {
   padding-top: 10px;
   font-family: "Montserrat", sans-serif;
   font-size: smaller;
+}
+
+.layer-options > label > img {
+  height: 16px;
+  width: 16px;
 }
 
 h3 {

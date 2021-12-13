@@ -111,6 +111,10 @@ html {
   justify-content: center;
 }
 
+.click-btn > .btn > a {
+  text-decoration: none;
+}
+
 /* Section - useful contacts */
 
 .useful-contacts {
