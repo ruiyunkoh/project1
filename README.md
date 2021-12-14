@@ -33,20 +33,20 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
   
 # 3. UIUX/Features
 
-3.1 UI/UX
+## 3.1 UI/UX
 
-  3.1.1 Identifying user stories <br>
+  ### 3.1.1 Identifying user stories
   a. As a user, I want to see all available pet-friendly facilities, so that I can include my pet in my activities. <br>
   b. As a user, I want to have a website with information useful to pet owners, so that I can apply the information to my pet.
   
-  3.1.2 Acceptance criteria <br>
+  ### 3.1.2 Acceptance criteria
   a. Map consists of various types of facilities/activities that users can choose from. <br>
   b. Map can be adjusted to various regions in Singapore, showing available facilities in that zone. <br>
   c. Users can search for the facility, if they have any in mind, which would appear on the map for their viewing. <br>
   d. Facilities should have been properly researched on to ensure that they are indeed pet-friendly to avoid confusion. <br> 
   e. Web application should also contain relevant information that pet owners may miss out. <br>
 
-  3.1.3 Wireframe and Five Planes of UI/UX
+  ### 3.1.3 Wireframe and Five Planes of UI/UX
   The project consists of mainly 2 pages: (i) Home page (ii) Map application, in order to provide users a wholistic view of this project. 
   
   (i) Home Page
@@ -64,19 +64,19 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
   
   You may find wireframes here: 
     
-3.2 Features
+## 3.2 Features
 <li> The main feature of the web application is the map page, whereby users are able to choose specific icons from the map corresponding to the type of activities they wish to engage with their map. Upon clicking on the icon, it would trigger a map zoom, and a pop-up will appear showing the place name and address. 
 <li> Although not yet implemented, a feature that is in consideration, and a plus to have that would work well with the map, is if users are able to check off places they have already visited with their pets. 
   
 # 4. Implementation
 
-4.1 Technologies used
+## 4.1 Technologies used
 <li> HTML, CSS and JavaScript
 <li> Visual Studio Code
 <li> [Leaflet API](https://leafletjs.com/)
   
   
-4.2 Testing
+## 4.2 Testing
 
 | Test Case #  | Test Case Description  | Test steps | Expected Result       |
 | :------------|:---------------------- |:---------- |:--------------------- |
