@@ -78,6 +78,17 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
   
 4.2 Testing
 
+| Test Case #  | Test Case Description  | Test steps | Expected Result       |
+| :------------|:---------------------- |:---------- |:--------------------- |
+|1 Home | Mobile responsive check | Checking display on various screen sizes via inspection | No display error |
+|2 Home | To check that Navbar Links work | 1. Clicking on Navlinks to ensure scrolling to section works <br> 2. Repeated step 1 with collapsed Navbar button on a small screen | Scrolling works when each Navlink is clicked |
+|3 Map | Mobile responsive check | Checking display on various screen sizes via inspection | No display error |
+|4 Map | Display of map application on load | Open map link | Map should show control panel open, with all layers shown, and region zoom set as "Show all" |
+|5 Map | Clicking on "Home" button | Clicked on Home button on the map | Brings user back to Home page |
+|6 Map | Testing of Map filtering | 1. Region Zoom drop-down filter: Selecting each option <br> 2. Filtering by amenities (map layers): Unchecked and re-checked several filtering checkboxes <br> 3. Reset button: Click on the reset button after region zoom filter or amenities filter was changed | 1. Map should zoom into specified region as selected <br> 2. Unchecked amenities should disappear from map, and appear again when checked <br> 3. Map should re-centre to show all regions and all amenities should appear again |
+|7 Map | Testing of search function | Search random word "Jurong" | Map should clear out of default icons, and only show the icon of search result. The bottom of search box should show user "1 search result found.." |
+|8 Map | Testing of reset button after using search | Click on reset button after Test case # 7 | Map should re-centre to show all regions and all amenities should appear again |
+  
 # 5. Deployment
 
 <li> The project was built on Visual Studio Code and monitored using Visual Studio Code Live Server.
