@@ -35,16 +35,16 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
 
 3.1 UI/UX
 
-  3.1.1 Identifying user stories 
-  a. As a user, I want to see all available pet-friendly facilities, so that I can include my pet in my activities. 
+  3.1.1 Identifying user stories <br>
+  a. As a user, I want to see all available pet-friendly facilities, so that I can include my pet in my activities. <br>
   b. As a user, I want to have a website with information useful to pet owners, so that I can apply the information to my pet.
   
-  3.1.2 Acceptance criteria
-  a. Map consists of various types of facilities/activities that users can choose from.
-  b. Map can be adjusted to various regions in Singapore, showing available facilities in that zone.
-  c. Users can search for the facility, if they have any in mind, which would appear on the map for their viewing.
-  d. Facilities should have been properly researched on to ensure that they are indeed pet-friendly to avoid confusion. 
-  e. Web application should also contain relevant information that pet owners may miss out.
+  3.1.2 Acceptance criteria <br>
+  a. Map consists of various types of facilities/activities that users can choose from. <br>
+  b. Map can be adjusted to various regions in Singapore, showing available facilities in that zone. <br>
+  c. Users can search for the facility, if they have any in mind, which would appear on the map for their viewing. <br>
+  d. Facilities should have been properly researched on to ensure that they are indeed pet-friendly to avoid confusion. <br> 
+  e. Web application should also contain relevant information that pet owners may miss out. <br>
 
   3.1.3 Wireframe and Five Planes of UI/UX
   The project consists of mainly 2 pages: (i) Home page (ii) Map application, in order to provide users a wholistic view of this project. 
