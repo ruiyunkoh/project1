@@ -9,6 +9,8 @@
   position: relative;
 }
 
+/* control panel styling */
+
 #control-overlay {
   position: absolute;
   z-index: 314159;
@@ -71,6 +73,8 @@ h3 {
   padding-right: 10px;
 }
 
+/* Back to home page button styling */
+
 .home-button {
   position: absolute;
   z-index: 314159;
@@ -78,12 +82,23 @@ h3 {
   left: 60px;
   height: 35px;
   width: 70px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: larger;
-  color: white;
   background-color: rgb(126, 125, 120);
   border: rgb(126, 125, 120);
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-button > a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: larger;
+}
+
+.home-button:hover {
+  background-color: rgba(172, 185, 194, 0.685);
 }
 
 /* styling of tabs in control panel */

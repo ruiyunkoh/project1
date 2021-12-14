@@ -106,9 +106,9 @@ async function loadGeojsonToCluster(fileName, icon) {
   let objects = response.data.features;
   let markerCluster = L.markerClusterGroup();
 
-  for (let i = 0; i < objects.length; i++) {
-    addToMarkerCluster(objects[i], icon, markerCluster);
-  }
+  objects.map((object) => {
+    addToMarkerCluster(object, icon, markerCluster);
+  });
 
   return markerCluster;
 }
@@ -145,14 +145,16 @@ async function searchFromAllFiles(searchString) {
   const searchMarkers = [];
 
   // Search in each marker
-  for (let i = 0; i < input.length; i++) {
-    const markers = await loadGeojsonAndSearchToMarker(
-      searchString,
-      input[i].file,
-      input[i].icon
-    );
-    searchMarkers.push(...markers);
-  }
+  await Promise.all(
+    input.map(async (details) => {
+      const markers = await loadGeojsonAndSearchToMarker(
+        searchString,
+        details.file,
+        details.icon
+      );
+      searchMarkers.push(...markers);
+    })
+  );
 
   return searchMarkers;
 }

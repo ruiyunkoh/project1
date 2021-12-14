@@ -30,11 +30,8 @@
   </head>
   <body>
     <div id="map-container">
-      <div>
-        <button type="button" class="home-button">
-          <a href="https://ruiyunkoh.github.io/project1/#"></a> Home
-        </button>
-        >
+      <div class="home-button">
+        <a href="/index.html"> Home </a>
       </div>
       <div id="map"></div>
       <div id="control-overlay">
@@ -56,7 +53,7 @@
         <form id="filter" class="tabcontent">
           <div class="region-filter">
             <h3>Zoom into Regions</h3>
-            <label for="">Select region:</label>
+            <label>Select region:</label>
             <select
               name="region"
               id="singapore-regions"
@@ -161,7 +158,9 @@
         <div id="search-container" class="tabcontent">
           <h3>Search for an amenity</h3>
           <input id="search-input" type="text" />
-          <button id="search-btn"><i class="fas fa-search"></i></button>
+          <button id="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
           <div id="search-results"></div>
         </div>
       </div>

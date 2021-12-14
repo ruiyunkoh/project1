@@ -115,4 +115,10 @@ document.querySelector("#search-btn").addEventListener("click", function () {
   map.removeLayer(petpoolLayer);
   map.removeLayer(foodLayer);
   map.removeLayer(hotelLayer);
+  document.getElementById("pet-boarding").checked = false;
+  document.getElementById("groomers").checked = false;
+  document.getElementById("dog-run").checked = false;
+  document.getElementById("pet-pools").checked = false;
+  document.getElementById("restaurants").checked = false;
+  document.getElementById("staycation").checked = false;
 });
