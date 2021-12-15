@@ -1,4 +1,4 @@
-# Activities for Pets and Pawrents
+# Paw-radise, where Paws roam freely
 
 By: <b>Koh Rui Yun</b>
 
@@ -8,7 +8,7 @@ Due to the context of Singapore, there are limitations on the places and activit
 users may find activities suitable for their furkids. 
 As each facility/place has been researched on and checked to ensure it is pet-friendly, it eliminates the uncertainties faced by Pawrents or unnecessary shock faced by passerbys, since every party is well aware of what to expect.
 
-To sum it up, 
+To sum it up, <br>
 User's goal: To find the type of facility to bring their pets to, in the area of their choice. 
 Site owner's goal: the project aims to promote inclusiveness of furkids in their Pawrent's activities.
 
@@ -91,7 +91,7 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
 |5 Map | Clicking on "Home" button | Clicked on Home button on the map | Brings user back to Home page |
 |6 Map | Testing of Map filtering | 1. Region Zoom drop-down filter: Selecting each option <br> 2. Filtering by amenities (map layers): Unchecked and re-checked several filtering checkboxes <br> 3. Reset button: Click on the reset button after region zoom filter or amenities filter was changed | 1. Map should zoom into specified region as selected <br> 2. Unchecked amenities should disappear from map, and appear again when checked <br> 3. Map should re-centre to show all regions and all amenities should appear again |
 |7 Map | Testing of search function | Search random word "Jurong" | Map should clear out of default icons, and only show the icon of search result. The bottom of search box should show user "1 search result found.." |
-|8 Map | Testing of reset button after using search | Click on reset button after Test case # 7 | Map should re-centre to show all regions and all amenities should appear again |
+|8 Map | Testing of reset button after using search | Click on reset button after Test case # 7 | Map should re-centre to show all regions, and all amenities should appear again |
   
 # 5. Deployment
 
