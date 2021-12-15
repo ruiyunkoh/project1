@@ -64,7 +64,7 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
   <li> A large "Home" button is on the top left of the screen so that users know they are able to toggle back to the main Home page. 
   <li> The map icons are specially chosen to correspond to the type of facility/activity. 
   
-  You may find wireframes here: [wireframe pdf](/uiux-files/wireframe.pdf)
+  You may find wireframes here: [wireframe pdf](/uiux-files)
     
 ## 3.2 Features
 <li> The main feature of the web application is the map page, whereby users are able to choose specific icons from the map corresponding to the type of activities they wish to engage with their map. Upon clicking on the icon, it would trigger a map zoom, and a pop-up will appear showing the place name and address. 
@@ -76,6 +76,8 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
 <li> HTML, CSS and JavaScript
 <li> Visual Studio Code
 <li> <a href="https://leafletjs.com/">Leaflet API</a></li>
+<li> <a href="https://github.com/axios/axios">AXIOS</a></li>
+<li> <a href="https://validator.w3.org/">HTML code validator</a></li>
   
   
 ## 4.2 Testing
@@ -96,7 +98,7 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
 <li> The project was built on Visual Studio Code and monitored using Visual Studio Code Live Server.
 <li> The project was committed, staged, and pushed to GitHub on a usual basis. 
 <li> The Github repository https://github.com/ruiyunkoh/project1 was created, before the master branch of the website is deployed and saved to the Github pages.
-<li> All images, javascript, css are in their respective section folders, the main site named index.html and the README file in the root folder.
+<li> All images, javascript, css are in their respective section folders (home page/map app), the main site named index.html and the README file in the root folder.
 
 # 6. Credits
   <li> <a href="https://leafletjs.com/">Leaflet API</a></li>
