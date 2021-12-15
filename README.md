@@ -57,7 +57,7 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
   <li> For the visual design, in order to grab the target audience's attention (Pet owners), the Home page uses happy animal images, that take up the full view size. 
   <li> Home page also consists of an "Enter Map" button, that when clicked, the full sized map application will appear. 
     
-  (ii) Map appliation
+  (ii) Map application
   <li> The control panel and its buttons features neutral and pastel colors, so users are able to focus their attention on the locations generated on the map. 
   <li> Users are able to control what they see on the map via a consolidated control panel, on the bottom left of the screen. This control panel ensures feasibility when using a smaller device, and also gives users a choice to close it when they wish to have an unobstructed view of the map. 
     Functions to control the map are all on this control panel, such that the map application page does not appear cluttered, or having too many buttons leaving the user confused. 
@@ -68,7 +68,7 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
     
 ## 3.2 Features
 <li> The main feature of the web application is the map page, whereby users are able to choose specific icons from the map corresponding to the type of activities they wish to engage with their map. Upon clicking on the icon, it would trigger a map zoom, and a pop-up will appear showing the place name and address. 
-<li> Although not yet implemented, a feature that is in consideration, and a plus to have that would work well with the map, is if users are able to check off places they have already visited with their pets. 
+<li> Although not yet implemented, a feature that is in consideration that would work well with the map, is a function where users are able to check off places they have already visited with their pets. 
   
 # 4. Implementation
 
