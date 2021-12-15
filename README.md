@@ -14,6 +14,8 @@ Site owner's goal: the project aims to promote inclusiveness of furkids in their
 
 You may visit the live site here: https://ruiyunkoh.github.io/project1/
 
+![display sample](/uiux-files/display-pic.png)
+
 # 2. Project Complexity Matrix
 
 | Project Complexity Items  | Instances      |
@@ -62,7 +64,7 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
   <li> A large "Home" button is on the top left of the screen so that users know they are able to toggle back to the main Home page. 
   <li> The map icons are specially chosen to correspond to the type of facility/activity. 
   
-  You may find wireframes here: 
+  You may find wireframes here: [wireframe pdf](/uiux-files/wireframe.pdf)
     
 ## 3.2 Features
 <li> The main feature of the web application is the map page, whereby users are able to choose specific icons from the map corresponding to the type of activities they wish to engage with their map. Upon clicking on the icon, it would trigger a map zoom, and a pop-up will appear showing the place name and address. 
