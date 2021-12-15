@@ -92,7 +92,7 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
 # 5. Deployment
 
 <li> The project was built on Visual Studio Code and monitored using Visual Studio Code Live Server.
-<li> The pProject was committed, staged, and pushed to GitHub on a usual basis. 
+<li> The project was committed, staged, and pushed to GitHub on a usual basis. 
 <li> The Github repository https://github.com/ruiyunkoh/project1 was created, before the master branch of the website is deployed and saved to the Github pages.
 <li> All images, javascript, css are in their respective section folders, the main site named index.html and the README file in the root folder.
 
