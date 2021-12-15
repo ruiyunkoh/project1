@@ -9,7 +9,7 @@ users may find activities suitable for their furkids.
 As each facility/place has been researched on and checked to ensure it is pet-friendly, it eliminates the uncertainties faced by Pawrents or unnecessary shock faced by passerbys, since every party is well aware of what to expect.
 
 To sum it up, <br>
-User's goal: To find the type of facility to bring their pets to, in the area of their choice. 
+User's goal: To find the type of facility to bring their pets to, in the area of their choice. <br>
 Site owner's goal: the project aims to promote inclusiveness of furkids in their Pawrent's activities.
 
 You may visit the live site here: https://ruiyunkoh.github.io/project1/
