@@ -33,20 +33,20 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
   
 # 3. UIUX/Features
 
-3.1 UI/UX
+## 3.1 UI/UX
 
-  3.1.1 Identifying user stories 
-  a. As a user, I want to see all available pet-friendly facilities, so that I can include my pet in my activities. 
+  ### 3.1.1 Identifying user stories
+  a. As a user, I want to see all available pet-friendly facilities, so that I can include my pet in my activities. <br>
   b. As a user, I want to have a website with information useful to pet owners, so that I can apply the information to my pet.
   
-  3.1.2 Acceptance criteria
-  a. Map consists of various types of facilities/activities that users can choose from.
-  b. Map can be adjusted to various regions in Singapore, showing available facilities in that zone.
-  c. Users can search for the facility, if they have any in mind, which would appear on the map for their viewing.
-  d. Facilities should have been properly researched on to ensure that they are indeed pet-friendly to avoid confusion. 
-  e. Web application should also contain relevant information that pet owners may miss out.
+  ### 3.1.2 Acceptance criteria
+  a. Map consists of various types of facilities/activities that users can choose from. <br>
+  b. Map can be adjusted to various regions in Singapore, showing available facilities in that zone. <br>
+  c. Users can search for the facility, if they have any in mind, which would appear on the map for their viewing. <br>
+  d. Facilities should have been properly researched on to ensure that they are indeed pet-friendly to avoid confusion. <br> 
+  e. Web application should also contain relevant information that pet owners may miss out. <br>
 
-  3.1.3 Wireframe and Five Planes of UI/UX
+  ### 3.1.3 Wireframe and Five Planes of UI/UX
   The project consists of mainly 2 pages: (i) Home page (ii) Map application, in order to provide users a wholistic view of this project. 
   
   (i) Home Page
@@ -64,33 +64,44 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
   
   You may find wireframes here: 
     
-3.2 Features
+## 3.2 Features
 <li> The main feature of the web application is the map page, whereby users are able to choose specific icons from the map corresponding to the type of activities they wish to engage with their map. Upon clicking on the icon, it would trigger a map zoom, and a pop-up will appear showing the place name and address. 
 <li> Although not yet implemented, a feature that is in consideration, and a plus to have that would work well with the map, is if users are able to check off places they have already visited with their pets. 
   
 # 4. Implementation
 
-4.1 Technologies used
+## 4.1 Technologies used
 <li> HTML, CSS and JavaScript
 <li> Visual Studio Code
-<li> [Leaflet API](https://leafletjs.com/)
+<li> <a href="https://leafletjs.com/">Leaflet API</a></li>
   
   
-4.2 Testing
+## 4.2 Testing
 
+| Test Case #  | Test Case Description  | Test steps | Expected Result       |
+| :------------|:---------------------- |:---------- |:--------------------- |
+|1 Home | Mobile responsive check | Checking display on various screen sizes via inspection | No display error |
+|2 Home | To check that Navbar Links work | 1. Clicking on Navlinks to ensure scrolling to section works <br> 2. Repeated step 1 with collapsed Navbar button on a small screen | Scrolling works when each Navlink is clicked |
+|3 Map | Mobile responsive check | Checking display on various screen sizes via inspection | No display error |
+|4 Map | Display of map application on load | Open map link | Map should show control panel open, with all layers shown, and region zoom set as "Show all" |
+|5 Map | Clicking on "Home" button | Clicked on Home button on the map | Brings user back to Home page |
+|6 Map | Testing of Map filtering | 1. Region Zoom drop-down filter: Selecting each option <br> 2. Filtering by amenities (map layers): Unchecked and re-checked several filtering checkboxes <br> 3. Reset button: Click on the reset button after region zoom filter or amenities filter was changed | 1. Map should zoom into specified region as selected <br> 2. Unchecked amenities should disappear from map, and appear again when checked <br> 3. Map should re-centre to show all regions and all amenities should appear again |
+|7 Map | Testing of search function | Search random word "Jurong" | Map should clear out of default icons, and only show the icon of search result. The bottom of search box should show user "1 search result found.." |
+|8 Map | Testing of reset button after using search | Click on reset button after Test case # 7 | Map should re-centre to show all regions and all amenities should appear again |
+  
 # 5. Deployment
 
 <li> The project was built on Visual Studio Code and monitored using Visual Studio Code Live Server.
-<li> The pProject was committed, staged, and pushed to GitHub on a usual basis. 
+<li> The project was committed, staged, and pushed to GitHub on a usual basis. 
 <li> The Github repository https://github.com/ruiyunkoh/project1 was created, before the master branch of the website is deployed and saved to the Github pages.
 <li> All images, javascript, css are in their respective section folders, the main site named index.html and the README file in the root folder.
 
 # 6. Credits
-  <li> [Leaflet API](https://leafletjs.com/)
-  <li> [Google Maps](https://www.google.com/maps)
-  <li> [FontAwesome](https://fontawesome.com/v5.15/icons)
-  <li> [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-  <li> [Pet icon](https://www.clipartmax.com/middle/m2H7N4N4G6d3A0G6_chinese-wind-twelve-zodiac-signs-instagram-highlights-pet-icon/)
-  <li> [Dog image 1](https://www.pupvine.com/male-vs-female-corgi/)
-  <li> [Dog image 2](https://www.runsociety.com/highlight/a-guide-to-running-with-dogs/)
-  <li> [Map icons](https://icons8.com/icon/)
+  <li> <a href="https://leafletjs.com/">Leaflet API</a></li>
+  <li> <a href="https://www.google.com/maps">Google Maps</a></li>
+  <li> <a href="https://fontawesome.com/v5.15/icons"> FontAwesome </a></li> 
+  <li> <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Bootsrap</a></li>
+  <li> <a href="https://www.clipartmax.com/middle/m2H7N4N4G6d3A0G6_chinese-wind-twelve-zodiac-signs-instagram-highlights-pet-icon/">Pet Icon</a></li>
+  <li> <a href="https://www.pupvine.com/male-vs-female-corgi/">Dog image 1</a></li>
+  <li> <a href="https://www.runsociety.com/highlight/a-guide-to-running-with-dogs/">Dog image 2</a></li>
+  <li> <a href="https://icons8.com/icon/">Map icons</a></li>
