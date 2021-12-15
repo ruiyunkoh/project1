@@ -73,7 +73,7 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
 ## 4.1 Technologies used
 <li> HTML, CSS and JavaScript
 <li> Visual Studio Code
-<li> [Leaflet API](https://leafletjs.com/)
+<li> <a href="https://leafletjs.com/">Leaflet API</a></li>
   
   
 ## 4.2 Testing
@@ -97,11 +97,11 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
 <li> All images, javascript, css are in their respective section folders, the main site named index.html and the README file in the root folder.
 
 # 6. Credits
-  <li> [Leaflet API](https://leafletjs.com/)
-  <li> [Google Maps](https://www.google.com/maps)
-  <li> [FontAwesome](https://fontawesome.com/v5.15/icons)
-  <li> [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-  <li> [Pet icon](https://www.clipartmax.com/middle/m2H7N4N4G6d3A0G6_chinese-wind-twelve-zodiac-signs-instagram-highlights-pet-icon/)
-  <li> [Dog image 1](https://www.pupvine.com/male-vs-female-corgi/)
-  <li> [Dog image 2](https://www.runsociety.com/highlight/a-guide-to-running-with-dogs/)
-  <li> [Map icons](https://icons8.com/icon/)
+  <li> <a href="https://leafletjs.com/">Leaflet API</a></li>
+  <li> <a href="https://www.google.com/maps">Google Maps</a></li>
+  <li> <a href="https://fontawesome.com/v5.15/icons"> FontAwesome </a></li> 
+  <li> <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Bootsrap</a></li>
+  <li> <a href="https://www.clipartmax.com/middle/m2H7N4N4G6d3A0G6_chinese-wind-twelve-zodiac-signs-instagram-highlights-pet-icon/">Pet Icon</a></li>
+  <li> <a href="https://www.pupvine.com/male-vs-female-corgi/">Dog image 1</a></li>
+  <li> <a href="https://www.runsociety.com/highlight/a-guide-to-running-with-dogs/">Dog image 2</a></li>
+  <li> <a href="https://icons8.com/icon/">Map icons</a></li>
