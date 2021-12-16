@@ -49,7 +49,7 @@ You may visit the live site here: https://ruiyunkoh.github.io/project1/
   e. Web application should also contain relevant information that pet owners may miss out. <br>
 
   ### 3.1.3 Wireframe and Five Planes of UI/UX
-  The project consists of mainly 2 pages: (i) Home page (ii) Map application, in order to provide users a wholistic view of this project. 
+  The project consists of mainly 2 pages: (i) Home page (ii) Map application, in order to provide users a holistic view of this project. 
   
   (i) Home Page
   <li> The Home Page features a clean interface, with the Navbar being used as the main navigator around the page using smooth scrolling behaviour. 
